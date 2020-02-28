@@ -194,6 +194,18 @@ def get_session_archives(web_driver, lst_xp, app_btn_xp):
     return archive, unknown
 
 
+def csv_2_date_path_dict(in_file, key_field="Session Date",
+                         value_field="Session Link"):
+    csv_dict = {}
+    with open(in_file, 'r') as csv_in:
+        csv_reader = csv.DictReader(csv_in)
+        for row in csv_reader:
+            ky = row[key_field]
+            vl = row[value_field]
+            csv_dict[ky] = vl
+    return csv_dict
+
+
 def get_web_driver(driver_loc, web_loc):
     web_driver = webdriver.Chrome(executable_path=driver_loc)
     web_driver.get(web_loc)
