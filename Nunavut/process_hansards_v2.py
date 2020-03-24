@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 import csv
 
-# from nunavut_hansards import csv_2_date_path_dict
+from nunavut_hansards import csv_2_date_path_dict
 
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
@@ -113,7 +113,8 @@ def get_oral_q_df(text, d_str):
     # q_titles = r'(\s*Question \d{1,3}\s.+?:(?:\s+\w+)+\s+(?:\(\w+\)){0,1})'
     # q_titles = r'(\s*Question \d{1,3}\s.+?:(?:\s+\w+\S{0,1}\w)+\s+(?:\(\w+,{0,1}\s*\w{0,1}\)){0,1})'
     # q_titles = r'\s*(Question\s+\d{0,3}\s\S\s\d\(\d\):\s(?:\w+(?:\S)*\s+)+(?:\(\w+(?:(?:\S)*\s\w+){0,1}){0,1}\))'
-    q_titles = r'\s*(Question\s+\d{1,3}\s\S\s\d\(\d\):\s*(?:\s\w*(?:\S\s){0,1})+(?:\s*\S\w+\S)*?(?:\s*\(\w*(?:, \w){0,1}\)))'
+    # q_titles = r'\s*(Question\s+\d{1,3}\s\S\s\d\(\d\):\s*(?:\s\w*(?:\S\s){0,1})+(?:\s*\S\w+\S)*?(?:\s*\(\w*(?:, \w){0,1}\)))'
+    q_titles = r'\s*(Question\s+\d{1,3}\s\S\s\d\(\d\):\s*(?:\s\w*(?:\S\s){0,1})+(?:\s*\S\w+\S)*?(?:\s*\(\w*(?:, \w){0,1}\))*)'
     # speaker_headers = r'((?:Honorable|Hon\.|Mr\.|M[r]{0,1}s\.){0,1}\s*(?:[A-Z]\w+){0,1}\s*[A-Z]\w+:)'
     # speaker_headers = r'(\s*(?:M[r|s]s{0,1}\.|Hon\.|Honourable){0,1}(?:\s+[A-Z]\w+?){1,2}\s*(?:\(\w+\)){0,1}:)'
     # speaker_headers = r'(\s+(?:M[r|s]s{0,1}\.|Hon\.|Honourable|Speaker)(?:\s+[A-Z]\w+?){0,2}\s*(?:\(\w+\))?:)'
@@ -355,8 +356,8 @@ def main():
     # path_dct = csv_2_date_path_dict('Nunavut/archives.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/archives_4th.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/archives_3rd.csv')
-    # path_dct = csv_2_date_path_dict('Nunavut/archives_2nd.csv')
-    path_dct = get_pdfs_list('Nunavut/archives_2nd.csv')
+    path_dct = csv_2_date_path_dict('Nunavut/archives_2nd.csv')
+    # path_dct = get_pdfs_list('Nunavut/archives_2nd.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/archives_1st.csv')
     for dte in path_dct:
         pdf_name = get_pdf(path_dct[dte], dte)
