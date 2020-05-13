@@ -1,0 +1,6 @@
+README.md
+setup.py
+indiginous_parliaments.egg-info/PKG-INFO
+indiginous_parliaments.egg-info/SOURCES.txt
+indiginous_parliaments.egg-info/dependency_links.txt
+indiginous_parliaments.egg-info/top_level.txt
