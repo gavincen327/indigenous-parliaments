@@ -1,0 +1,24 @@
+astroid==2.4.1
+certifi==2020.4.5.1
+chardet==3.0.4
+idna==2.9
+-e git+https://github.com/eleonoreft/indigenous-parliaments.git@880e459c3a9a94246ee48db7cb53ee14aa1587d9#egg=indiginous_parliaments
+isort==4.3.21
+lazy-object-proxy==1.4.3
+lxml==4.5.0
+mccabe==0.6.1
+numpy==1.18.4
+pandas==1.0.3
+pdfminer==20191125
+pycryptodome==3.9.7
+pylint==2.5.2
+python-dateutil==2.8.1
+python-docx==0.8.10
+pytz==2020.1
+requests==2.23.0
+selenium==3.141.0
+six==1.14.0
+toml==0.10.0
+typed-ast==1.4.1
+urllib3==1.25.9
+wrapt==1.12.1
