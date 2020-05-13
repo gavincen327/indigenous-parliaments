@@ -52,6 +52,15 @@ def prepare_raw_text(text, store_path=''):
 
 
 def get_pattern_text(pattern, search_text):
+    """[summary]
+
+    Arguments:
+        pattern {[type]} -- [description]
+        search_text {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
     pat_complied = re.compile(pattern)
     pat_match = pat_complied.search(search_text)
     if pat_match:
@@ -59,17 +68,32 @@ def get_pattern_text(pattern, search_text):
     return None
 
 
-def get_oral_q_df(text, d_str, tmp_dir='tmp/'):
-    oral_q_sec = r'Item 6: Oral Questions\s+(.*?)(?:\s+Item \d{1,2}:)'
-    q_titles = r'\s*(Question\s+\d{1,3}\s*\S\s\d\(\d\)):'
+def get_oral_q_df(text, d_str, section, titles, tmp_dir='tmp/'):
+    """Extract the Oral Questions section in from some textand return the
+    resulting text as a DataFrame object
+
+    Arguments:
+        text {str} -- body of text to search
+        d_str {str} -- date string
+        section {str} -- reg-ex for oral questions section header
+        titles {str} -- reg-ex for speaker titles
+
+    Keyword Arguments:
+        tmp_dir {str} -- location to store temporary files (default: {'tmp/'})
+
+    Returns:
+        DataFrame -- [description]
+    """
+    # section = r'Item 6: Oral Questions\s+(.*?)(?:\s+Item \d{1,2}:)'
+    # titles = r'\s*(Question\s+\d{1,3}\s*\S\s\d\(\d\)):'
     section_title = r'Item \d{1,2}:'
     speaker_headers = r'\s*((?:M[r|s]s{0,1}\.{0,1}|Hon\.{0,1}|Honourable|Speaker)(?:\s+(?:O\S){0,1}[A-Z]\w+?\.{0,1}){0,2})\s*(?:\(\w+\)){0,1}:'
 
-    oral_questions = get_pattern_text(oral_q_sec, text)
+    oral_questions = get_pattern_text(section, text)
     if oral_questions:
         df_list = []
         title = 'Item 6: Oral Questions'
-        question_list = re.split(q_titles, text)
+        question_list = re.split(titles, text)
         for idx in range(len(question_list)):
             if title in question_list[idx]:
                 logging.debug('Title in idx: %s' % idx)
@@ -102,7 +126,7 @@ def get_oral_q_df(text, d_str, tmp_dir='tmp/'):
                     question_list[idx-1] += ': ' + q_tail
                     # print('New question:', question_list[idx-1])
                     question_list[idx] = dialog
-        utils.send_text_to_file(tmp_dir+d_str +'q_split_raw.txt',
+        utils.send_text_to_file(tmp_dir+d_str + 'q_split_raw.txt',
                                 question_list, data_type='list')
         even_q_list = question_list[1::2]
         odd_q_list = question_list[::2]
@@ -130,7 +154,7 @@ def get_oral_q_df(text, d_str, tmp_dir='tmp/'):
         return pd.DataFrame(columns=['question', 'speaker', 'speech'])
 
 
-def process_pdf(pdf_loc, date_str, coding='utf-8', tmp_dir='tmp/'):
+def process_pdf(pdf_loc, date_str, section, titles, coding='utf-8', tmp_dir='tmp/'):
     try:
         raw_text = pdf_to_text(pdf_loc)
         raw_text = raw_text.decode(encoding=coding)
@@ -138,19 +162,21 @@ def process_pdf(pdf_loc, date_str, coding='utf-8', tmp_dir='tmp/'):
         #                   '-raw_text.txt', raw_text)
         # print('raw text sent')
         store_to = tmp_dir + date_str + 'rem_hd_ft_raw_text.txt'
-        rm_hd_nl_text = prepare_raw_text(raw_text, store_path=store_to)
+        flat_text = prepare_raw_text(raw_text, store_path=store_to)
         # send_text_to_file('Nunavut/clean_csvs/'+date_str +
-        #                   'rem_nl_raw_text.txt', rm_hd_nl_text)
+        #                   'rem_nl_raw_text.txt', flat_text)
         # print('Raw text no newlines sent')
-        if rm_hd_nl_text.find("Item 6: Oral Questions") > -1:
+        title = "Item 6: Oral Questions"
+        if flat_text.find(title) > -1 or flat_text.find(title.upper()) > -1:
             utils.send_text_to_file(tmp_dir+date_str+'-raw_text.txt', raw_text)
             logging.debug('Raw pdf text sent %s' % date_str)
             utils.send_text_to_file(tmp_dir+date_str+'rem_nl_raw_text.txt',
-                                    rm_hd_nl_text)
+                                    flat_text)
             logging.debug('Raw text no newlines sent %s' % date_str)
-            return get_oral_q_df(rm_hd_nl_text, date_str)
+            return get_oral_q_df(flat_text, date_str, section, titles)
         else:
-            print('Oral Questions section not present in PDF %s.' % pdf_loc)
+            logging.debug(
+                'Oral Questions section not present in PDF %s.' % pdf_loc)
             return pd.DataFrame(columns=['question', 'speaker', 'speech'])
     except Exception as e:
         print('ERROR: Error reading/accessing pdf document for %s. [%s].' %
