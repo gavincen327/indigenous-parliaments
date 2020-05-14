@@ -10,21 +10,11 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
+from indig_parl_utils import mth_convert
+
 import time
 import re
 import csv
-
-
-def mth_convert(m_str):
-    m_dic = {'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3,
-             'march': 3, 'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6,
-             'jul': 7, 'july': 7, 'aug': 8, 'august': 8, 'sep': 9,
-             'september': 9, 'oct': 10, 'october': 10, 'nov': 11,
-             'november': 11, 'dec': 12, 'december': 12}
-    if m_str.lower() not in m_dic.keys():
-        return 0
-    else:
-        return (m_dic[m_str.lower()])
 
 
 def hansard_lnks_to_csv(file_prefix, list_of_links):

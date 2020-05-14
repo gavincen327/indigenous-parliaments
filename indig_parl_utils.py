@@ -10,6 +10,29 @@ utils_logger = get_logger("Indig_Parl_Utils",
                           a_log_file='NWT/logs/indig_parl_utils_debug.log')
 
 
+def mth_convert(m_str):
+    """Returns a integer beween 1 and 12 corresponding to the month indicated
+    "m_str". Returns 0 is no corresponsing value is found.
+
+    Arguments:
+        m_str {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
+    m_dic = {'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3,
+             'march': 3, 'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6,
+             'jul': 7, 'july': 7, 'aug': 8, 'august': 8, 'sep': 9,
+             'september': 9, 'oct': 10, 'october': 10, 'nov': 11,
+             'november': 11, 'dec': 12, 'december': 12}
+    if m_str.lower() not in m_dic.keys():
+        utils_logger.debug('Invalid month string: %s' % m_str)
+        return 0
+    else:
+        utils_logger.debug('Month number returned')
+        return (m_dic[m_str.lower()])
+
+
 def get_file_list(directory, ext='all-files'):
     files = os.listdir(directory)
     for file in files:
