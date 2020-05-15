@@ -4,10 +4,48 @@ import csv
 import requests
 import os
 
+from selenium import webdriver
+from datetime import datetime
+
 from indig_parl_logger import get_logger
 
 utils_logger = get_logger("Indig_Parl_Utils",
                           a_log_file='NWT/logs/indig_parl_utils_debug.log')
+
+
+def convert_str_dte(dte_str, str_from_fmt, str_to_fmt):
+    """Converts between formats of string dates using format strings. Format
+    strings are based on Python datetime format string parameters.
+
+    Arguments:
+        dte_str {[type]} -- [description]
+        str_from_fmt {[type]} -- [description]
+        str_to_fmt {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
+    dte_obj = datetime.strptime(dte_str, str_from_fmt)
+    new_dte_str = dte_obj.strftime(str_to_fmt)
+    return new_dte_str
+
+
+def get_web_driver(driver_loc, web_loc):
+    """Initializes and returns a Google Chrome Selenium webdriver located
+    locally in path "driver_loc" for the website URL "web_loc"
+
+    Arguments:
+        driver_loc {[type]} -- [description]
+        web_loc {[type]} -- [description]
+
+    Returns:
+        [type] -- [description]
+    """
+    web_driver = webdriver.Chrome(executable_path=driver_loc)
+    web_driver.get(web_loc)
+    assert 'Hansard' in web_driver.title
+
+    return web_driver
 
 
 def mth_convert(m_str):
