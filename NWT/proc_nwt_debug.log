@@ -1,0 +1,771 @@
+2022-01-21 22:00:06,055 — process_nwt_hansards — DEBUG — 	[0]2003-10-10
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031010.pdf:NWT/pdfs/[2003-10-10]hn031010.pdf
+2022-01-21 22:00:07,489 — process_nwt_hansards — DEBUG — 	[1]2003-10-9
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031009.pdf:NWT/pdfs/[2003-10-09]hn031009.pdf
+2022-01-21 22:00:08,495 — process_nwt_hansards — DEBUG — 	[2]2003-10-8
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031008.pdf:NWT/pdfs/[2003-10-08]hn031008.pdf
+2022-01-21 22:00:09,616 — process_nwt_hansards — DEBUG — 	[3]2003-10-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031007.pdf:NWT/pdfs/[2003-10-07]hn031007.pdf
+2022-01-21 22:00:11,148 — process_nwt_hansards — DEBUG — 	[4]2003-10-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031006.pdf:NWT/pdfs/[2003-10-06]hn031006.pdf
+2022-01-21 22:00:12,494 — process_nwt_hansards — DEBUG — 	[5]2003-10-3
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031003.pdf:NWT/pdfs/[2003-10-03]hn031003.pdf
+2022-01-21 22:00:13,675 — process_nwt_hansards — DEBUG — 	[6]2003-10-2
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031002.pdf:NWT/pdfs/[2003-10-02]hn031002.pdf
+2022-01-21 22:00:14,772 — process_nwt_hansards — DEBUG — 	[7]2003-10-1
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn031001.pdf:NWT/pdfs/[2003-10-01]hn031001.pdf
+2022-01-21 22:00:15,774 — process_nwt_hansards — DEBUG — 	[8]2003-9-30
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030930.pdf:NWT/pdfs/[2003-09-30]hn030930.pdf
+2022-01-21 22:00:16,731 — process_nwt_hansards — DEBUG — 	[9]2003-6-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030613.pdf:NWT/pdfs/[2003-06-13]hn030613.pdf
+2022-01-21 22:00:19,057 — process_nwt_hansards — DEBUG — 	[10]2003-6-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030612.pdf:NWT/pdfs/[2003-06-12]hn030612.pdf
+2022-01-21 22:00:20,227 — process_nwt_hansards — DEBUG — 	[11]2003-6-11
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030611.pdf:NWT/pdfs/[2003-06-11]hn030611.pdf
+2022-01-21 22:00:21,348 — process_nwt_hansards — DEBUG — 	[12]2003-6-10
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030610.pdf:NWT/pdfs/[2003-06-10]hn030610.pdf
+2022-01-21 22:00:22,401 — process_nwt_hansards — DEBUG — 	[13]2003-6-9
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030609.pdf:NWT/pdfs/[2003-06-09]hn030609.pdf
+2022-01-21 22:00:23,446 — process_nwt_hansards — DEBUG — 	[14]2003-6-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030606.pdf:NWT/pdfs/[2003-06-06]hn030606.pdf
+2022-01-21 22:00:24,554 — process_nwt_hansards — DEBUG — 	[15]2003-6-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030605.pdf:NWT/pdfs/[2003-06-05]hn030605.pdf
+2022-01-21 22:00:25,627 — process_nwt_hansards — DEBUG — 	[16]2003-6-4
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030604.pdf:NWT/pdfs/[2003-06-04]hn030604.pdf
+2022-01-21 22:00:27,932 — process_nwt_hansards — DEBUG — 	[17]2003-3-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030313.pdf:NWT/pdfs/[2003-03-13]hn030313.pdf
+2022-01-21 22:00:30,047 — process_nwt_hansards — DEBUG — 	[18]2003-3-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030312.pdf:NWT/pdfs/[2003-03-12]hn030312.pdf
+2022-01-21 22:00:31,177 — process_nwt_hansards — DEBUG — 	[19]2003-3-11
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030311.pdf:NWT/pdfs/[2003-03-11]hn030311.pdf
+2022-01-21 22:00:33,144 — process_nwt_hansards — DEBUG — 	[20]2003-3-10
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030310.pdf:NWT/pdfs/[2003-03-10]hn030310.pdf
+2022-01-21 22:00:34,379 — process_nwt_hansards — DEBUG — 	[21]2003-3-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030307.pdf:NWT/pdfs/[2003-03-07]hn030307.pdf
+2022-01-21 22:00:36,231 — process_nwt_hansards — DEBUG — 	[22]2003-3-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030306.pdf:NWT/pdfs/[2003-03-06]hn030306.pdf
+2022-01-21 22:00:38,531 — process_nwt_hansards — DEBUG — 	[23]2003-3-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030305.pdf:NWT/pdfs/[2003-03-05]hn030305.pdf
+2022-01-21 22:00:39,587 — process_nwt_hansards — DEBUG — 	[24]2003-3-4
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030304.pdf:NWT/pdfs/[2003-03-04]hn030304.pdf
+2022-01-21 22:00:41,136 — process_nwt_hansards — DEBUG — 	[25]2003-3-3
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030303.pdf:NWT/pdfs/[2003-03-03]hn030303.pdf
+2022-01-21 22:00:42,286 — process_nwt_hansards — DEBUG — 	[26]2003-2-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030228.pdf:NWT/pdfs/[2003-02-28]hn030228.pdf
+2022-01-21 22:00:43,370 — process_nwt_hansards — DEBUG — 	[27]2003-2-27
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030227.pdf:NWT/pdfs/[2003-02-27]hn030227.pdf
+2022-01-21 22:00:44,391 — process_nwt_hansards — DEBUG — 	[28]2003-2-26
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030226.pdf:NWT/pdfs/[2003-02-26]hn030226.pdf
+2022-01-21 22:00:45,473 — process_nwt_hansards — DEBUG — 	[29]2003-2-25
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030225.pdf:NWT/pdfs/[2003-02-25]hn030225.pdf
+2022-01-21 22:00:47,140 — process_nwt_hansards — DEBUG — 	[30]2003-2-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030224.pdf:NWT/pdfs/[2003-02-24]hn030224.pdf
+2022-01-21 22:00:51,203 — process_nwt_hansards — DEBUG — 	[31]2003-2-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030221.pdf:NWT/pdfs/[2003-02-21]hn030221.pdf
+2022-01-21 22:00:52,532 — process_nwt_hansards — DEBUG — 	[32]2003-2-20
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030220.pdf:NWT/pdfs/[2003-02-20]hn030220.pdf
+2022-01-21 22:00:53,589 — process_nwt_hansards — DEBUG — 	[33]2003-2-19
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030219.pdf:NWT/pdfs/[2003-02-19]hn030219.pdf
+2022-01-21 22:00:54,687 — process_nwt_hansards — DEBUG — 	[34]2003-2-18
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030218.pdf:NWT/pdfs/[2003-02-18]hn030218.pdf
+2022-01-21 22:00:56,245 — process_nwt_hansards — DEBUG — 	[35]2003-2-17
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030217.pdf:NWT/pdfs/[2003-02-17]hn030217.pdf
+2022-01-21 22:00:57,290 — process_nwt_hansards — DEBUG — 	[36]2003-2-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030214.pdf:NWT/pdfs/[2003-02-14]hn030214.pdf
+2022-01-21 22:00:58,366 — process_nwt_hansards — DEBUG — 	[37]2003-2-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030213.pdf:NWT/pdfs/[2003-02-13]hn030213.pdf
+2022-01-21 22:00:59,396 — process_nwt_hansards — DEBUG — 	[38]2003-2-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn030212.pdf:NWT/pdfs/[2003-02-12]hn030212.pdf
+2022-01-21 22:01:01,219 — process_nwt_hansards — DEBUG — 	[39]2002-10-31
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021031.pdf:NWT/pdfs/[2002-10-31]hn021031.pdf
+2022-01-21 22:01:02,332 — process_nwt_hansards — DEBUG — 	[40]2002-10-30
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021030.pdf:NWT/pdfs/[2002-10-30]hn021030.pdf
+2022-01-21 22:01:03,979 — process_nwt_hansards — DEBUG — 	[41]2002-10-29
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021029.pdf:NWT/pdfs/[2002-10-29]hn021029.pdf
+2022-01-21 22:01:04,930 — process_nwt_hansards — DEBUG — 	[42]2002-10-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021028.pdf:NWT/pdfs/[2002-10-28]hn021028.pdf
+2022-01-21 22:01:05,916 — process_nwt_hansards — DEBUG — 	[43]2002-10-25
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021025.pdf:NWT/pdfs/[2002-10-25]hn021025.pdf
+2022-01-21 22:01:07,762 — process_nwt_hansards — DEBUG — 	[44]2002-10-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021024.pdf:NWT/pdfs/[2002-10-24]hn021024.pdf
+2022-01-21 22:01:09,569 — process_nwt_hansards — DEBUG — 	[45]2002-10-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021023.pdf:NWT/pdfs/[2002-10-23]hn021023.pdf
+2022-01-21 22:01:11,868 — process_nwt_hansards — DEBUG — 	[46]2002-10-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021022.pdf:NWT/pdfs/[2002-10-22]hn021022.pdf
+2022-01-21 22:01:13,269 — process_nwt_hansards — DEBUG — 	[47]2002-10-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021021.pdf:NWT/pdfs/[2002-10-21]hn021021.pdf
+2022-01-21 22:01:14,352 — process_nwt_hansards — DEBUG — 	[48]2002-10-18
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021018.pdf:NWT/pdfs/[2002-10-18]hn021018.pdf
+2022-01-21 22:01:15,520 — process_nwt_hansards — DEBUG — 	[49]2002-10-17
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021017.pdf:NWT/pdfs/[2002-10-17]hn021017.pdf
+2022-01-21 22:01:16,540 — process_nwt_hansards — DEBUG — 	[50]2002-10-16
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn021016.pdf:NWT/pdfs/[2002-10-16]hn021016.pdf
+2022-01-21 22:01:17,678 — process_nwt_hansards — DEBUG — 	[51]2002-6-19
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020619.pdf:NWT/pdfs/[2002-06-19]hn020619.pdf
+2022-01-21 22:01:18,638 — process_nwt_hansards — DEBUG — 	[52]2002-6-18
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020618.pdf:NWT/pdfs/[2002-06-18]hn020618.pdf
+2022-01-21 22:01:19,709 — process_nwt_hansards — DEBUG — 	[53]2002-6-17
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020617.pdf:NWT/pdfs/[2002-06-17]hn020617.pdf
+2022-01-21 22:01:20,652 — process_nwt_hansards — DEBUG — 	[54]2002-6-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020614.pdf:NWT/pdfs/[2002-06-14]hn020614.pdf
+2022-01-21 22:01:21,949 — process_nwt_hansards — DEBUG — 	[55]2002-6-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020613.pdf:NWT/pdfs/[2002-06-13]hn020613.pdf
+2022-01-21 22:01:22,825 — process_nwt_hansards — DEBUG — 	[56]2002-6-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020612.pdf:NWT/pdfs/[2002-06-12]hn020612.pdf
+2022-01-21 22:01:23,746 — process_nwt_hansards — DEBUG — 	[57]2002-6-11
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020611.pdf:NWT/pdfs/[2002-06-11]hn020611.pdf
+2022-01-21 22:01:24,794 — process_nwt_hansards — DEBUG — 	[58]2002-3-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020314.pdf:NWT/pdfs/[2002-03-14]hn020314.pdf
+2022-01-21 22:01:25,839 — process_nwt_hansards — DEBUG — 	[59]2002-3-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020313.pdf:NWT/pdfs/[2002-03-13]hn020313.pdf
+2022-01-21 22:01:27,479 — process_nwt_hansards — DEBUG — 	[60]2002-3-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020312.pdf:NWT/pdfs/[2002-03-12]hn020312.pdf
+2022-01-21 22:01:28,345 — process_nwt_hansards — DEBUG — 	[61]2002-3-11
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020311.pdf:NWT/pdfs/[2002-03-11]hn020311.pdf
+2022-01-21 22:01:29,315 — process_nwt_hansards — DEBUG — 	[62]2002-3-8
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020308.pdf:NWT/pdfs/[2002-03-08]hn020308.pdf
+2022-01-21 22:01:30,274 — process_nwt_hansards — DEBUG — 	[63]2002-3-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020307_0.pdf:NWT/pdfs/[2002-03-07]hn020307_0.pdf
+2022-01-21 22:01:31,123 — process_nwt_hansards — DEBUG — 	[64]2002-3-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020306.pdf:NWT/pdfs/[2002-03-06]hn020306.pdf
+2022-01-21 22:01:32,079 — process_nwt_hansards — DEBUG — 	[65]2002-3-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020305.pdf:NWT/pdfs/[2002-03-05]hn020305.pdf
+2022-01-21 22:01:33,505 — process_nwt_hansards — DEBUG — 	[66]2002-3-4
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020304.pdf:NWT/pdfs/[2002-03-04]hn020304.pdf
+2022-01-21 22:01:34,681 — process_nwt_hansards — DEBUG — 	[67]2002-3-1
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020301.pdf:NWT/pdfs/[2002-03-01]hn020301.pdf
+2022-01-21 22:01:36,129 — process_nwt_hansards — DEBUG — 	[68]2002-2-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020228.pdf:NWT/pdfs/[2002-02-28]hn020228.pdf
+2022-01-21 22:01:38,902 — process_nwt_hansards — DEBUG — 	[69]2002-2-27
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020227.pdf:NWT/pdfs/[2002-02-27]hn020227.pdf
+2022-01-21 22:01:40,375 — process_nwt_hansards — DEBUG — 	[70]2002-2-26
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020226.pdf:NWT/pdfs/[2002-02-26]hn020226.pdf
+2022-01-21 22:01:42,344 — process_nwt_hansards — DEBUG — 	[71]2002-2-25
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020225.pdf:NWT/pdfs/[2002-02-25]hn020225.pdf
+2022-01-21 22:01:45,895 — process_nwt_hansards — DEBUG — 	[72]2002-2-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020222.pdf:NWT/pdfs/[2002-02-22]hn020222.pdf
+2022-01-21 22:01:47,331 — process_nwt_hansards — DEBUG — 	[73]2002-2-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020221.pdf:NWT/pdfs/[2002-02-21]hn020221.pdf
+2022-01-21 22:01:48,742 — process_nwt_hansards — DEBUG — 	[74]2002-2-20
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020220.pdf:NWT/pdfs/[2002-02-20]hn020220.pdf
+2022-01-21 22:01:51,976 — process_nwt_hansards — DEBUG — 	[75]2002-2-19
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn020219.pdf:NWT/pdfs/[2002-02-19]hn020219.pdf
+2022-01-21 22:01:52,983 — process_nwt_hansards — DEBUG — 	[76]2001-11-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011106.pdf:NWT/pdfs/[2001-11-06]hn011106.pdf
+2022-01-21 22:01:53,871 — process_nwt_hansards — DEBUG — 	[77]2001-11-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011105.pdf:NWT/pdfs/[2001-11-05]hn011105.pdf
+2022-01-21 22:01:54,792 — process_nwt_hansards — DEBUG — 	[78]2001-11-2
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011102.pdf:NWT/pdfs/[2001-11-02]hn011102.pdf
+2022-01-21 22:01:55,957 — process_nwt_hansards — DEBUG — 	[79]2001-11-1
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011101.pdf:NWT/pdfs/[2001-11-01]hn011101.pdf
+2022-01-21 22:01:56,985 — process_nwt_hansards — DEBUG — 	[80]2001-10-31
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011031.pdf:NWT/pdfs/[2001-10-31]hn011031.pdf
+2022-01-21 22:01:57,895 — process_nwt_hansards — DEBUG — 	[81]2001-10-30
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011030.pdf:NWT/pdfs/[2001-10-30]hn011030.pdf
+2022-01-21 22:01:58,883 — process_nwt_hansards — DEBUG — 	[82]2001-10-29
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011029.pdf:NWT/pdfs/[2001-10-29]hn011029.pdf
+2022-01-21 22:01:59,847 — process_nwt_hansards — DEBUG — 	[83]2001-10-26
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011026.pdf:NWT/pdfs/[2001-10-26]hn011026.pdf
+2022-01-21 22:02:00,799 — process_nwt_hansards — DEBUG — 	[84]2001-10-25
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn011025.pdf:NWT/pdfs/[2001-10-25]hn011025.pdf
+2022-01-21 22:02:01,695 — process_nwt_hansards — DEBUG — 	[85]2001-10-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010724_0.pdf:NWT/pdfs/[2001-10-24]hn010724_0.pdf
+2022-01-21 22:02:05,622 — process_nwt_hansards — DEBUG — 	[86]2001-10-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010723_0.pdf:NWT/pdfs/[2001-10-23]hn010723_0.pdf
+2022-01-21 22:02:06,449 — process_nwt_hansards — DEBUG — 	[87]2001-7-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010724.pdf:NWT/pdfs/[2001-07-24]hn010724.pdf
+2022-01-21 22:02:08,041 — process_nwt_hansards — DEBUG — 	[88]2001-7-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010723.pdf:NWT/pdfs/[2001-07-23]hn010723.pdf
+2022-01-21 22:02:09,070 — process_nwt_hansards — DEBUG — 	[89]2001-6-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010614.pdf:NWT/pdfs/[2001-06-14]hn010614.pdf
+2022-01-21 22:02:10,462 — process_nwt_hansards — DEBUG — 	[90]2001-6-13
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010613.pdf:NWT/pdfs/[2001-06-13]hn010613.pdf
+2022-01-21 22:02:11,456 — process_nwt_hansards — DEBUG — 	[91]2001-6-12
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010612.pdf:NWT/pdfs/[2001-06-12]hn010612.pdf
+2022-01-21 22:02:13,181 — process_nwt_hansards — DEBUG — 	[92]2001-6-11
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010611.pdf:NWT/pdfs/[2001-06-11]hn010611.pdf
+2022-01-21 22:02:14,060 — process_nwt_hansards — DEBUG — 	[93]2001-6-8
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010608.pdf:NWT/pdfs/[2001-06-08]hn010608.pdf
+2022-01-21 22:02:15,251 — process_nwt_hansards — DEBUG — 	[94]2001-6-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010607.pdf:NWT/pdfs/[2001-06-07]hn010607.pdf
+2022-01-21 22:02:16,218 — process_nwt_hansards — DEBUG — 	[95]2001-6-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010606.pdf:NWT/pdfs/[2001-06-06]hn010606.pdf
+2022-01-21 22:02:17,053 — process_nwt_hansards — DEBUG — 	[96]2001-6-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010605.pdf:NWT/pdfs/[2001-06-05]hn010605.pdf
+2022-01-21 22:02:18,128 — process_nwt_hansards — DEBUG — 	[97]2001-3-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010307.pdf:NWT/pdfs/[2001-03-07]hn010307.pdf
+2022-01-21 22:02:19,167 — process_nwt_hansards — DEBUG — 	[98]2001-3-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010306.pdf:NWT/pdfs/[2001-03-06]hn010306.pdf
+2022-01-21 22:02:20,093 — process_nwt_hansards — DEBUG — 	[99]2001-3-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010305.pdf:NWT/pdfs/[2001-03-05]hn010305.pdf
+2022-01-21 22:02:21,110 — process_nwt_hansards — DEBUG — 	[100]2001-3-2
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010302.pdf:NWT/pdfs/[2001-03-02]hn010302.pdf
+2022-01-21 22:02:22,434 — process_nwt_hansards — DEBUG — 	[101]2001-3-1
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010301.pdf:NWT/pdfs/[2001-03-01]hn010301.pdf
+2022-01-21 22:02:24,474 — process_nwt_hansards — DEBUG — 	[102]2001-2-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010228.pdf:NWT/pdfs/[2001-02-28]hn010228.pdf
+2022-01-21 22:02:25,480 — process_nwt_hansards — DEBUG — 	[103]2001-2-27
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010227.pdf:NWT/pdfs/[2001-02-27]hn010227.pdf
+2022-01-21 22:02:26,359 — process_nwt_hansards — DEBUG — 	[104]2001-2-26
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010226.pdf:NWT/pdfs/[2001-02-26]hn010226.pdf
+2022-01-21 22:02:27,655 — process_nwt_hansards — DEBUG — 	[105]2001-2-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010223.pdf:NWT/pdfs/[2001-02-23]hn010223.pdf
+2022-01-21 22:02:28,681 — process_nwt_hansards — DEBUG — 	[106]2001-2-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010222.pdf:NWT/pdfs/[2001-02-22]hn010222.pdf
+2022-01-21 22:02:29,573 — process_nwt_hansards — DEBUG — 	[107]2001-2-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010221.pdf:NWT/pdfs/[2001-02-21]hn010221.pdf
+2022-01-21 22:02:30,497 — process_nwt_hansards — DEBUG — 	[108]2001-2-20
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010220.pdf:NWT/pdfs/[2001-02-20]hn010220.pdf
+2022-01-21 22:02:32,112 — process_nwt_hansards — DEBUG — 	[109]2001-2-19
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010219.pdf:NWT/pdfs/[2001-02-19]hn010219.pdf
+2022-01-21 22:02:33,333 — process_nwt_hansards — DEBUG — 	[110]2001-2-16
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010216.pdf:NWT/pdfs/[2001-02-16]hn010216.pdf
+2022-01-21 22:02:34,182 — process_nwt_hansards — DEBUG — 	[111]2001-2-15
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010215.pdf:NWT/pdfs/[2001-02-15]hn010215.pdf
+2022-01-21 22:02:34,993 — process_nwt_hansards — DEBUG — 	[112]2001-2-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn010214.pdf:NWT/pdfs/[2001-02-14]hn010214.pdf
+2022-01-21 22:02:36,075 — process_nwt_hansards — DEBUG — 	[113]2000-11-16
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001116.pdf:NWT/pdfs/[2000-11-16]hn001116.pdf
+2022-01-21 22:02:37,008 — process_nwt_hansards — DEBUG — 	[114]2000-11-15
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001115.pdf:NWT/pdfs/[2000-11-15]hn001115.pdf
+2022-01-21 22:02:37,939 — process_nwt_hansards — DEBUG — 	[115]2000-11-14
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001114.pdf:NWT/pdfs/[2000-11-14]hn001114.pdf
+2022-01-21 22:02:39,224 — process_nwt_hansards — DEBUG — 	[116]2000-11-10
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001110.pdf:NWT/pdfs/[2000-11-10]hn001110.pdf
+2022-01-21 22:02:40,524 — process_nwt_hansards — DEBUG — 	[117]2000-11-9
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001109.pdf:NWT/pdfs/[2000-11-09]hn001109.pdf
+2022-01-21 22:02:41,421 — process_nwt_hansards — DEBUG — 	[118]2000-11-8
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001108.pdf:NWT/pdfs/[2000-11-08]hn001108.pdf
+2022-01-21 22:02:42,325 — process_nwt_hansards — DEBUG — 	[119]2000-11-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001107.pdf:NWT/pdfs/[2000-11-07]hn001107.pdf
+2022-01-21 22:02:43,470 — process_nwt_hansards — DEBUG — 	[120]2000-11-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001106.pdf:NWT/pdfs/[2000-11-06]hn001106.pdf
+2022-01-21 22:02:44,390 — process_nwt_hansards — DEBUG — 	[121]2000-11-3
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001103.pdf:NWT/pdfs/[2000-11-03]hn001103.pdf
+2022-01-21 22:02:45,821 — process_nwt_hansards — DEBUG — 	[122]2000-11-2
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001102.pdf:NWT/pdfs/[2000-11-02]hn001102.pdf
+2022-01-21 22:02:46,643 — process_nwt_hansards — DEBUG — 	[123]2000-11-1
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001101.pdf:NWT/pdfs/[2000-11-01]hn001101.pdf
+2022-01-21 22:02:47,741 — process_nwt_hansards — DEBUG — 	[124]2000-10-31
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn001031.pdf:NWT/pdfs/[2000-10-31]hn001031.pdf
+2022-01-21 22:02:48,885 — process_nwt_hansards — DEBUG — 	[125]2000-7-7
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000707.pdf:NWT/pdfs/[2000-07-07]hn000707.pdf
+2022-01-21 22:02:50,020 — process_nwt_hansards — DEBUG — 	[126]2000-7-6
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000706.pdf:NWT/pdfs/[2000-07-06]hn000706.pdf
+2022-01-21 22:02:51,076 — process_nwt_hansards — DEBUG — 	[127]2000-7-5
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000705.pdf:NWT/pdfs/[2000-07-05]hn000705.pdf
+2022-01-21 22:02:51,921 — process_nwt_hansards — DEBUG — 	[128]2000-7-4
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000704.pdf:NWT/pdfs/[2000-07-04]hn000704.pdf
+2022-01-21 22:02:52,819 — process_nwt_hansards — DEBUG — 	[129]2000-6-30
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000630.pdf:NWT/pdfs/[2000-06-30]hn000630.pdf
+2022-01-21 22:02:53,813 — process_nwt_hansards — DEBUG — 	[130]2000-6-29
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000629.pdf:NWT/pdfs/[2000-06-29]hn000629.pdf
+2022-01-21 22:02:55,909 — process_nwt_hansards — DEBUG — 	[131]2000-6-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000628.pdf:NWT/pdfs/[2000-06-28]hn000628.pdf
+2022-01-21 22:02:56,913 — process_nwt_hansards — DEBUG — 	[132]2000-6-27
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000627.pdf:NWT/pdfs/[2000-06-27]hn000627.pdf
+2022-01-21 22:02:57,966 — process_nwt_hansards — DEBUG — 	[133]2000-6-26
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000626.pdf:NWT/pdfs/[2000-06-26]hn000626.pdf
+2022-01-21 22:02:58,987 — process_nwt_hansards — DEBUG — 	[134]2000-6-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000623.pdf:NWT/pdfs/[2000-06-23]hn000623.pdf
+2022-01-21 22:03:00,006 — process_nwt_hansards — DEBUG — 	[135]2000-6-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000622.pdf:NWT/pdfs/[2000-06-22]hn000622.pdf
+2022-01-21 22:03:01,650 — process_nwt_hansards — DEBUG — 	[136]2000-6-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000621.pdf:NWT/pdfs/[2000-06-21]hn000621.pdf
+2022-01-21 22:03:02,617 — process_nwt_hansards — DEBUG — 	[137]2000-6-20
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/hn000620.pdf:NWT/pdfs/[2000-06-20]hn000620.pdf
+2022-01-21 22:03:03,645 — process_nwt_hansards — DEBUG — 	[138]2000-3-31
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_15_-_march_31_2000.pdf:NWT/pdfs/[2000-03-31]day_15_-_march_31_2000.pdf
+2022-01-21 22:03:05,139 — process_nwt_hansards — DEBUG — 	[139]2000-3-30
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_14_-_march_30_2000.pdf:NWT/pdfs/[2000-03-30]day_14_-_march_30_2000.pdf
+2022-01-21 22:03:06,140 — process_nwt_hansards — DEBUG — 	[140]2000-3-29
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_13_-_march_29_2000.pdf:NWT/pdfs/[2000-03-29]day_13_-_march_29_2000.pdf
+2022-01-21 22:03:07,863 — process_nwt_hansards — DEBUG — 	[141]2000-3-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_12_-_march_28_2000.pdf:NWT/pdfs/[2000-03-28]day_12_-_march_28_2000.pdf
+2022-01-21 22:03:09,655 — process_nwt_hansards — DEBUG — 	[142]2000-3-27
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_11_-_march_27_2000.pdf:NWT/pdfs/[2000-03-27]day_11_-_march_27_2000.pdf
+2022-01-21 22:03:11,023 — process_nwt_hansards — DEBUG — 	[143]2000-3-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_10_-_march_24_2000.pdf:NWT/pdfs/[2000-03-24]day_10_-_march_24_2000.pdf
+2022-01-21 22:03:11,969 — process_nwt_hansards — DEBUG — 	[144]2000-3-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_9_-_march_23_2000.pdf:NWT/pdfs/[2000-03-23]day_9_-_march_23_2000.pdf
+2022-01-21 22:03:12,919 — process_nwt_hansards — DEBUG — 	[145]2000-3-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_8_-_march_22_2000.pdf:NWT/pdfs/[2000-03-22]day_8_-_march_22_2000.pdf
+2022-01-21 22:03:13,775 — process_nwt_hansards — DEBUG — 	[146]2000-3-21
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_7_-_march_21_2000.pdf:NWT/pdfs/[2000-03-21]day_7_-_march_21_2000.pdf
+2022-01-21 22:03:15,002 — process_nwt_hansards — DEBUG — 	[147]2000-2-29
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_6_-_feb_29_2000.pdf:NWT/pdfs/[2000-02-29]day_6_-_feb_29_2000.pdf
+2022-01-21 22:03:15,979 — process_nwt_hansards — DEBUG — 	[148]2000-2-28
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_5_-_feb_28_2000.pdf:NWT/pdfs/[2000-02-28]day_5_-_feb_28_2000.pdf
+2022-01-21 22:03:16,810 — process_nwt_hansards — DEBUG — 	[149]2000-2-25
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_4_-_feb_25_2000.pdf:NWT/pdfs/[2000-02-25]day_4_-_feb_25_2000.pdf
+2022-01-21 22:03:17,798 — process_nwt_hansards — DEBUG — 	[150]2000-2-24
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_3_-_feb_24_2000.pdf:NWT/pdfs/[2000-02-24]day_3_-_feb_24_2000.pdf
+2022-01-21 22:03:18,734 — process_nwt_hansards — DEBUG — 	[151]2000-2-23
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_2_-_feb_23_2000.pdf:NWT/pdfs/[2000-02-23]day_2_-_feb_23_2000.pdf
+2022-01-21 22:03:19,689 — process_nwt_hansards — DEBUG — 	[152]2000-2-22
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_1_-_feb_22_2000.pdf:NWT/pdfs/[2000-02-22]day_1_-_feb_22_2000.pdf
+2022-01-21 22:03:20,617 — process_nwt_hansards — DEBUG — 	[153]2000-1-19
+		:
+		https://www.assembly.gov.nt.ca/sites/assembly/files/day_1_-_jan_19_2000.pdf:NWT/pdfs/[2000-01-19]day_1_-_jan_19_2000.pdf
+2022-01-21 22:03:20,620 — process_nwt_hansards — DEBUG — Processing 154 ".pdf" hansards.
+2022-01-21 22:03:27,144 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-10. [NWT/pdfs/[2003-10-10]hn031010.pdf].
+2022-01-21 22:03:27,144 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-10rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:31,649 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-09. [NWT/pdfs/[2003-10-09]hn031009.pdf].
+2022-01-21 22:03:31,649 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-09rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:37,416 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-08. [NWT/pdfs/[2003-10-08]hn031008.pdf].
+2022-01-21 22:03:37,416 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-08rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:42,112 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-07. [NWT/pdfs/[2003-10-07]hn031007.pdf].
+2022-01-21 22:03:42,112 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:46,402 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-06. [NWT/pdfs/[2003-10-06]hn031006.pdf].
+2022-01-21 22:03:46,403 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:49,973 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-03. [NWT/pdfs/[2003-10-03]hn031003.pdf].
+2022-01-21 22:03:49,974 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-03rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:54,149 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-02. [NWT/pdfs/[2003-10-02]hn031002.pdf].
+2022-01-21 22:03:54,149 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-02rem_hd_ft_raw_text.txt'
+2022-01-21 22:03:58,310 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-10-01. [NWT/pdfs/[2003-10-01]hn031001.pdf].
+2022-01-21 22:03:58,310 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-10-01rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:01,099 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-09-30. [NWT/pdfs/[2003-09-30]hn030930.pdf].
+2022-01-21 22:04:01,099 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-09-30rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:04,792 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-13. [NWT/pdfs/[2003-06-13]hn030613.pdf].
+2022-01-21 22:04:04,792 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-13rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:14,713 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-12. [NWT/pdfs/[2003-06-12]hn030612.pdf].
+2022-01-21 22:04:14,713 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-12rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:19,721 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-11. [NWT/pdfs/[2003-06-11]hn030611.pdf].
+2022-01-21 22:04:19,721 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-11rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:23,344 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-10. [NWT/pdfs/[2003-06-10]hn030610.pdf].
+2022-01-21 22:04:23,344 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-10rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:27,291 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-09. [NWT/pdfs/[2003-06-09]hn030609.pdf].
+2022-01-21 22:04:27,291 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-09rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:29,772 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-06. [NWT/pdfs/[2003-06-06]hn030606.pdf].
+2022-01-21 22:04:29,772 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:33,470 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-05. [NWT/pdfs/[2003-06-05]hn030605.pdf].
+2022-01-21 22:04:33,470 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:36,900 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-06-04. [NWT/pdfs/[2003-06-04]hn030604.pdf].
+2022-01-21 22:04:36,900 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-06-04rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:40,266 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-13. [NWT/pdfs/[2003-03-13]hn030313.pdf].
+2022-01-21 22:04:40,266 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-13rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:44,689 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-12. [NWT/pdfs/[2003-03-12]hn030312.pdf].
+2022-01-21 22:04:44,689 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-12rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:50,325 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-11. [NWT/pdfs/[2003-03-11]hn030311.pdf].
+2022-01-21 22:04:50,325 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-11rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:53,907 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-10. [NWT/pdfs/[2003-03-10]hn030310.pdf].
+2022-01-21 22:04:53,907 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-10rem_hd_ft_raw_text.txt'
+2022-01-21 22:04:57,252 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-07. [NWT/pdfs/[2003-03-07]hn030307.pdf].
+2022-01-21 22:04:57,252 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:01,008 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-06. [NWT/pdfs/[2003-03-06]hn030306.pdf].
+2022-01-21 22:05:01,008 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:04,711 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-05. [NWT/pdfs/[2003-03-05]hn030305.pdf].
+2022-01-21 22:05:04,711 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:08,601 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-04. [NWT/pdfs/[2003-03-04]hn030304.pdf].
+2022-01-21 22:05:08,601 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-04rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:12,311 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-03-03. [NWT/pdfs/[2003-03-03]hn030303.pdf].
+2022-01-21 22:05:12,311 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-03-03rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:15,254 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-28. [NWT/pdfs/[2003-02-28]hn030228.pdf].
+2022-01-21 22:05:15,255 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:19,037 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-27. [NWT/pdfs/[2003-02-27]hn030227.pdf].
+2022-01-21 22:05:19,038 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-27rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:22,472 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-26. [NWT/pdfs/[2003-02-26]hn030226.pdf].
+2022-01-21 22:05:22,472 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-26rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:25,982 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-25. [NWT/pdfs/[2003-02-25]hn030225.pdf].
+2022-01-21 22:05:25,982 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-25rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:29,368 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-24. [NWT/pdfs/[2003-02-24]hn030224.pdf].
+2022-01-21 22:05:29,369 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:32,118 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-21. [NWT/pdfs/[2003-02-21]hn030221.pdf].
+2022-01-21 22:05:32,119 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:35,569 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-20. [NWT/pdfs/[2003-02-20]hn030220.pdf].
+2022-01-21 22:05:35,569 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-20rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:39,280 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-19. [NWT/pdfs/[2003-02-19]hn030219.pdf].
+2022-01-21 22:05:39,280 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-19rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:42,776 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-18. [NWT/pdfs/[2003-02-18]hn030218.pdf].
+2022-01-21 22:05:42,777 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-18rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:46,483 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-17. [NWT/pdfs/[2003-02-17]hn030217.pdf].
+2022-01-21 22:05:46,483 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-17rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:49,072 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-14. [NWT/pdfs/[2003-02-14]hn030214.pdf].
+2022-01-21 22:05:49,072 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-14rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:50,229 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-13. [NWT/pdfs/[2003-02-13]hn030213.pdf].
+2022-01-21 22:05:50,229 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-13rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:52,592 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2003-02-12. [NWT/pdfs/[2003-02-12]hn030212.pdf].
+2022-01-21 22:05:52,592 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2003-02-12rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:54,672 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-31. [NWT/pdfs/[2002-10-31]hn021031.pdf].
+2022-01-21 22:05:54,672 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-31rem_hd_ft_raw_text.txt'
+2022-01-21 22:05:59,227 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-30. [NWT/pdfs/[2002-10-30]hn021030.pdf].
+2022-01-21 22:05:59,227 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-30rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:03,250 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-29. [NWT/pdfs/[2002-10-29]hn021029.pdf].
+2022-01-21 22:06:03,250 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-29rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:06,641 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-28. [NWT/pdfs/[2002-10-28]hn021028.pdf].
+2022-01-21 22:06:06,641 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:09,395 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-25. [NWT/pdfs/[2002-10-25]hn021025.pdf].
+2022-01-21 22:06:09,395 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-25rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:11,998 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-24. [NWT/pdfs/[2002-10-24]hn021024.pdf].
+2022-01-21 22:06:11,998 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:15,224 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-23. [NWT/pdfs/[2002-10-23]hn021023.pdf].
+2022-01-21 22:06:15,224 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:19,718 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-22. [NWT/pdfs/[2002-10-22]hn021022.pdf].
+2022-01-21 22:06:19,718 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:21,813 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-21. [NWT/pdfs/[2002-10-21]hn021021.pdf].
+2022-01-21 22:06:21,814 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:23,865 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-18. [NWT/pdfs/[2002-10-18]hn021018.pdf].
+2022-01-21 22:06:23,866 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-18rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:27,411 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-17. [NWT/pdfs/[2002-10-17]hn021017.pdf].
+2022-01-21 22:06:27,412 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-17rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:30,510 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-10-16. [NWT/pdfs/[2002-10-16]hn021016.pdf].
+2022-01-21 22:06:30,510 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-10-16rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:33,958 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-19. [NWT/pdfs/[2002-06-19]hn020619.pdf].
+2022-01-21 22:06:33,958 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-06-19rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:41,225 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-18. [NWT/pdfs/[2002-06-18]hn020618.pdf].
+2022-01-21 22:06:41,225 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-06-18rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:44,538 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-17. [NWT/pdfs/[2002-06-17]hn020617.pdf].
+2022-01-21 22:06:44,538 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-06-17rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:44,548 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-14. [NWT/pdfs/[2002-06-14]hn020614.pdf].
+2022-01-21 22:06:44,549 — process_nwt_hansards — DEBUG — Text extraction is not allowed: <_io.BufferedReader name='NWT/pdfs/[2002-06-14]hn020614.pdf'>
+2022-01-21 22:06:44,554 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-13. [NWT/pdfs/[2002-06-13]hn020613.pdf].
+2022-01-21 22:06:44,554 — process_nwt_hansards — DEBUG — Text extraction is not allowed: <_io.BufferedReader name='NWT/pdfs/[2002-06-13]hn020613.pdf'>
+2022-01-21 22:06:44,559 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-12. [NWT/pdfs/[2002-06-12]hn020612.pdf].
+2022-01-21 22:06:44,559 — process_nwt_hansards — DEBUG — Text extraction is not allowed: <_io.BufferedReader name='NWT/pdfs/[2002-06-12]hn020612.pdf'>
+2022-01-21 22:06:44,567 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-06-11. [NWT/pdfs/[2002-06-11]hn020611.pdf].
+2022-01-21 22:06:44,567 — process_nwt_hansards — DEBUG — Text extraction is not allowed: <_io.BufferedReader name='NWT/pdfs/[2002-06-11]hn020611.pdf'>
+2022-01-21 22:06:48,806 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-14. [NWT/pdfs/[2002-03-14]hn020314.pdf].
+2022-01-21 22:06:48,806 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-14rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:53,859 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-13. [NWT/pdfs/[2002-03-13]hn020313.pdf].
+2022-01-21 22:06:53,859 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-13rem_hd_ft_raw_text.txt'
+2022-01-21 22:06:58,614 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-12. [NWT/pdfs/[2002-03-12]hn020312.pdf].
+2022-01-21 22:06:58,615 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-12rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:02,416 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-11. [NWT/pdfs/[2002-03-11]hn020311.pdf].
+2022-01-21 22:07:02,416 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-11rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:05,043 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-08. [NWT/pdfs/[2002-03-08]hn020308.pdf].
+2022-01-21 22:07:05,044 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-08rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:09,779 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-07. [NWT/pdfs/[2002-03-07]hn020307_0.pdf].
+2022-01-21 22:07:09,781 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:13,370 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-06. [NWT/pdfs/[2002-03-06]hn020306.pdf].
+2022-01-21 22:07:13,370 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:17,776 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-05. [NWT/pdfs/[2002-03-05]hn020305.pdf].
+2022-01-21 22:07:17,777 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:21,665 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-04. [NWT/pdfs/[2002-03-04]hn020304.pdf].
+2022-01-21 22:07:21,665 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-04rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:23,887 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-03-01. [NWT/pdfs/[2002-03-01]hn020301.pdf].
+2022-01-21 22:07:23,887 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-03-01rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:27,751 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-28. [NWT/pdfs/[2002-02-28]hn020228.pdf].
+2022-01-21 22:07:27,752 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:30,887 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-27. [NWT/pdfs/[2002-02-27]hn020227.pdf].
+2022-01-21 22:07:30,888 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-27rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:34,861 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-26. [NWT/pdfs/[2002-02-26]hn020226.pdf].
+2022-01-21 22:07:34,862 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-26rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:37,878 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-25. [NWT/pdfs/[2002-02-25]hn020225.pdf].
+2022-01-21 22:07:37,878 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-25rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:40,715 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-22. [NWT/pdfs/[2002-02-22]hn020222.pdf].
+2022-01-21 22:07:40,715 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:07:44,364 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-21. [NWT/pdfs/[2002-02-21]hn020221.pdf].
+2022-01-21 22:07:44,364 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:10,911 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-20. [NWT/pdfs/[2002-02-20]hn020220.pdf].
+2022-01-21 22:16:10,911 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-20rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:13,079 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2002-02-19. [NWT/pdfs/[2002-02-19]hn020219.pdf].
+2022-01-21 22:16:13,080 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2002-02-19rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:20,075 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-11-06. [NWT/pdfs/[2001-11-06]hn011106.pdf].
+2022-01-21 22:16:20,075 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-11-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:23,373 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-11-05. [NWT/pdfs/[2001-11-05]hn011105.pdf].
+2022-01-21 22:16:23,373 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-11-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:26,415 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-11-02. [NWT/pdfs/[2001-11-02]hn011102.pdf].
+2022-01-21 22:16:26,415 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-11-02rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:28,521 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-11-01. [NWT/pdfs/[2001-11-01]hn011101.pdf].
+2022-01-21 22:16:28,521 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-11-01rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:31,185 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-31. [NWT/pdfs/[2001-10-31]hn011031.pdf].
+2022-01-21 22:16:31,185 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-31rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:33,477 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-30. [NWT/pdfs/[2001-10-30]hn011030.pdf].
+2022-01-21 22:16:33,477 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-30rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:37,046 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-29. [NWT/pdfs/[2001-10-29]hn011029.pdf].
+2022-01-21 22:16:37,047 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-29rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:39,845 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-26. [NWT/pdfs/[2001-10-26]hn011026.pdf].
+2022-01-21 22:16:39,845 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-26rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:42,558 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-25. [NWT/pdfs/[2001-10-25]hn011025.pdf].
+2022-01-21 22:16:42,558 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-25rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:44,684 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-24. [NWT/pdfs/[2001-10-24]hn010724_0.pdf].
+2022-01-21 22:16:44,684 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:49,694 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-10-23. [NWT/pdfs/[2001-10-23]hn010723_0.pdf].
+2022-01-21 22:16:49,694 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-10-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:51,853 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-07-24. [NWT/pdfs/[2001-07-24]hn010724.pdf].
+2022-01-21 22:16:51,853 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-07-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:16:56,850 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-07-23. [NWT/pdfs/[2001-07-23]hn010723.pdf].
+2022-01-21 22:16:56,850 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-07-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:00,529 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-14. [NWT/pdfs/[2001-06-14]hn010614.pdf].
+2022-01-21 22:17:00,529 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-14rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:05,241 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-13. [NWT/pdfs/[2001-06-13]hn010613.pdf].
+2022-01-21 22:17:05,241 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-13rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:09,913 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-12. [NWT/pdfs/[2001-06-12]hn010612.pdf].
+2022-01-21 22:17:09,914 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-12rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:14,469 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-11. [NWT/pdfs/[2001-06-11]hn010611.pdf].
+2022-01-21 22:17:14,469 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-11rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:16,604 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-08. [NWT/pdfs/[2001-06-08]hn010608.pdf].
+2022-01-21 22:17:16,605 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-08rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:19,145 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-07. [NWT/pdfs/[2001-06-07]hn010607.pdf].
+2022-01-21 22:17:19,145 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:22,307 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-06. [NWT/pdfs/[2001-06-06]hn010606.pdf].
+2022-01-21 22:17:22,307 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:25,164 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-06-05. [NWT/pdfs/[2001-06-05]hn010605.pdf].
+2022-01-21 22:17:25,164 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-06-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:29,923 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-03-07. [NWT/pdfs/[2001-03-07]hn010307.pdf].
+2022-01-21 22:17:29,923 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-03-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:36,296 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-03-06. [NWT/pdfs/[2001-03-06]hn010306.pdf].
+2022-01-21 22:17:36,296 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-03-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:41,169 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-03-05. [NWT/pdfs/[2001-03-05]hn010305.pdf].
+2022-01-21 22:17:41,169 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-03-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:46,183 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-03-02. [NWT/pdfs/[2001-03-02]hn010302.pdf].
+2022-01-21 22:17:46,183 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-03-02rem_hd_ft_raw_text.txt'
+2022-01-21 22:17:53,766 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-03-01. [NWT/pdfs/[2001-03-01]hn010301.pdf].
+2022-01-21 22:17:53,766 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-03-01rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:01,686 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-28. [NWT/pdfs/[2001-02-28]hn010228.pdf].
+2022-01-21 22:18:01,686 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:09,798 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-27. [NWT/pdfs/[2001-02-27]hn010227.pdf].
+2022-01-21 22:18:09,798 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-27rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:13,210 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-26. [NWT/pdfs/[2001-02-26]hn010226.pdf].
+2022-01-21 22:18:13,210 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-26rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:16,446 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-23. [NWT/pdfs/[2001-02-23]hn010223.pdf].
+2022-01-21 22:18:16,447 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:19,751 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-22. [NWT/pdfs/[2001-02-22]hn010222.pdf].
+2022-01-21 22:18:19,751 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:23,329 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-21. [NWT/pdfs/[2001-02-21]hn010221.pdf].
+2022-01-21 22:18:23,330 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:27,810 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-20. [NWT/pdfs/[2001-02-20]hn010220.pdf].
+2022-01-21 22:18:27,810 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-20rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:32,293 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-19. [NWT/pdfs/[2001-02-19]hn010219.pdf].
+2022-01-21 22:18:32,293 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-19rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:35,021 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-16. [NWT/pdfs/[2001-02-16]hn010216.pdf].
+2022-01-21 22:18:35,021 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-16rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:36,514 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-15. [NWT/pdfs/[2001-02-15]hn010215.pdf].
+2022-01-21 22:18:36,514 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-15rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:38,430 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2001-02-14. [NWT/pdfs/[2001-02-14]hn010214.pdf].
+2022-01-21 22:18:38,430 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2001-02-14rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:43,212 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-16. [NWT/pdfs/[2000-11-16]hn001116.pdf].
+2022-01-21 22:18:43,212 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-16rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:49,456 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-15. [NWT/pdfs/[2000-11-15]hn001115.pdf].
+2022-01-21 22:18:49,456 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-15rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:52,051 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-14. [NWT/pdfs/[2000-11-14]hn001114.pdf].
+2022-01-21 22:18:52,051 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-14rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:54,137 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-10. [NWT/pdfs/[2000-11-10]hn001110.pdf].
+2022-01-21 22:18:54,137 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-10rem_hd_ft_raw_text.txt'
+2022-01-21 22:18:58,409 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-09. [NWT/pdfs/[2000-11-09]hn001109.pdf].
+2022-01-21 22:18:58,409 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-09rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:02,477 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-08. [NWT/pdfs/[2000-11-08]hn001108.pdf].
+2022-01-21 22:19:02,477 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-08rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:06,044 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-07. [NWT/pdfs/[2000-11-07]hn001107.pdf].
+2022-01-21 22:19:06,045 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:08,533 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-06. [NWT/pdfs/[2000-11-06]hn001106.pdf].
+2022-01-21 22:19:08,533 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:12,461 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-03. [NWT/pdfs/[2000-11-03]hn001103.pdf].
+2022-01-21 22:19:12,461 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-03rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:15,418 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-02. [NWT/pdfs/[2000-11-02]hn001102.pdf].
+2022-01-21 22:19:15,419 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-02rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:17,277 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-11-01. [NWT/pdfs/[2000-11-01]hn001101.pdf].
+2022-01-21 22:19:17,278 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-11-01rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:19,608 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-10-31. [NWT/pdfs/[2000-10-31]hn001031.pdf].
+2022-01-21 22:19:19,608 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-10-31rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:23,364 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-07-07. [NWT/pdfs/[2000-07-07]hn000707.pdf].
+2022-01-21 22:19:23,364 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-07-07rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:31,064 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-07-06. [NWT/pdfs/[2000-07-06]hn000706.pdf].
+2022-01-21 22:19:31,064 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-07-06rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:38,946 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-07-05. [NWT/pdfs/[2000-07-05]hn000705.pdf].
+2022-01-21 22:19:38,946 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-07-05rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:40,597 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-07-04. [NWT/pdfs/[2000-07-04]hn000704.pdf].
+2022-01-21 22:19:40,597 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-07-04rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:44,325 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-30. [NWT/pdfs/[2000-06-30]hn000630.pdf].
+2022-01-21 22:19:44,325 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-30rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:52,848 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-29. [NWT/pdfs/[2000-06-29]hn000629.pdf].
+2022-01-21 22:19:52,848 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-29rem_hd_ft_raw_text.txt'
+2022-01-21 22:19:59,400 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-28. [NWT/pdfs/[2000-06-28]hn000628.pdf].
+2022-01-21 22:19:59,400 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:06,235 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-27. [NWT/pdfs/[2000-06-27]hn000627.pdf].
+2022-01-21 22:20:06,235 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-27rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:12,249 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-26. [NWT/pdfs/[2000-06-26]hn000626.pdf].
+2022-01-21 22:20:12,249 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-26rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:15,995 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-23. [NWT/pdfs/[2000-06-23]hn000623.pdf].
+2022-01-21 22:20:15,995 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:20,411 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-22. [NWT/pdfs/[2000-06-22]hn000622.pdf].
+2022-01-21 22:20:20,411 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:24,746 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-21. [NWT/pdfs/[2000-06-21]hn000621.pdf].
+2022-01-21 22:20:24,746 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:27,822 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-06-20. [NWT/pdfs/[2000-06-20]hn000620.pdf].
+2022-01-21 22:20:27,822 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-06-20rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:32,556 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-31. [NWT/pdfs/[2000-03-31]day_15_-_march_31_2000.pdf].
+2022-01-21 22:20:32,557 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-31rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:36,087 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-30. [NWT/pdfs/[2000-03-30]day_14_-_march_30_2000.pdf].
+2022-01-21 22:20:36,087 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-30rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:39,907 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-29. [NWT/pdfs/[2000-03-29]day_13_-_march_29_2000.pdf].
+2022-01-21 22:20:39,907 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-29rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:45,292 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-28. [NWT/pdfs/[2000-03-28]day_12_-_march_28_2000.pdf].
+2022-01-21 22:20:45,293 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:50,801 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-27. [NWT/pdfs/[2000-03-27]day_11_-_march_27_2000.pdf].
+2022-01-21 22:20:50,801 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-27rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:53,869 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-24. [NWT/pdfs/[2000-03-24]day_10_-_march_24_2000.pdf].
+2022-01-21 22:20:53,869 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:20:57,605 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-23. [NWT/pdfs/[2000-03-23]day_9_-_march_23_2000.pdf].
+2022-01-21 22:20:57,605 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:01,335 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-22. [NWT/pdfs/[2000-03-22]day_8_-_march_22_2000.pdf].
+2022-01-21 22:21:01,336 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:05,349 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-03-21. [NWT/pdfs/[2000-03-21]day_7_-_march_21_2000.pdf].
+2022-01-21 22:21:05,350 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-03-21rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:08,829 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-29. [NWT/pdfs/[2000-02-29]day_6_-_feb_29_2000.pdf].
+2022-01-21 22:21:08,829 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-29rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:12,010 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-28. [NWT/pdfs/[2000-02-28]day_5_-_feb_28_2000.pdf].
+2022-01-21 22:21:12,010 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-28rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:15,612 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-25. [NWT/pdfs/[2000-02-25]day_4_-_feb_25_2000.pdf].
+2022-01-21 22:21:15,612 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-25rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:18,349 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-24. [NWT/pdfs/[2000-02-24]day_3_-_feb_24_2000.pdf].
+2022-01-21 22:21:18,349 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-24rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:21,270 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-23. [NWT/pdfs/[2000-02-23]day_2_-_feb_23_2000.pdf].
+2022-01-21 22:21:21,271 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-23rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:23,976 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-02-22. [NWT/pdfs/[2000-02-22]day_1_-_feb_22_2000.pdf].
+2022-01-21 22:21:23,977 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-02-22rem_hd_ft_raw_text.txt'
+2022-01-21 22:21:25,540 — process_nwt_hansards — DEBUG — ERROR: Error accessing pdf document for 2000-01-19. [NWT/pdfs/[2000-01-19]day_1_-_jan_19_2000.pdf].
+2022-01-21 22:21:25,540 — process_nwt_hansards — DEBUG — [Errno 2] No such file or directory: 'NWT/tmp/2000-01-19rem_hd_ft_raw_text.txt'

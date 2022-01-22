@@ -1,0 +1,55 @@
+2020-05-13 10:15:49,102 — Process_NWT_Hansards — DEBUG — Processing 27 ".docx" hansards.
+2020-05-13 10:15:50,091 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-16]hn200316.docx
+2020-05-13 10:15:50,958 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-16]hn200316.docx
+2020-05-13 10:15:51,941 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-13]hn200313_0.docx
+2020-05-13 10:15:52,847 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-13]hn200313_0.docx
+2020-05-13 10:15:53,795 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-12]hn200312.docx
+2020-05-13 10:15:54,694 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-12]hn200312.docx
+2020-05-13 10:15:55,691 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-11]hn200311.docx
+2020-05-13 10:15:56,332 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-11]hn200311.docx
+2020-05-13 10:15:57,396 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-10]hn200310_0.docx
+2020-05-13 10:15:58,282 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-10]hn200310_0.docx
+2020-05-13 10:15:59,260 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-05]hn200305_0.docx
+2020-05-13 10:16:00,134 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-05]hn200305_0.docx
+2020-05-13 10:16:01,116 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-04]hn200304_0.docx
+2020-05-13 10:16:01,618 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-04]hn200304_0.docx
+2020-05-13 10:16:02,484 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-03]hn200303_0.docx
+2020-05-13 10:16:03,207 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-03]hn200303_0.docx
+2020-05-13 10:16:04,285 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-03-02]hn200302_0.docx
+2020-05-13 10:16:05,103 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-03-02]hn200302_0.docx
+2020-05-13 10:16:06,073 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-28]hn200228_0.docx
+2020-05-13 10:16:06,939 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-28]hn200228_0.docx
+2020-05-13 10:16:08,112 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-27]hn200227_0.docx
+2020-05-13 10:16:08,844 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-27]hn200227_0.docx
+2020-05-13 10:16:09,845 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-26]hn200226_0.docx
+2020-05-13 10:16:10,807 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-26]hn200226_0.docx
+2020-05-13 10:16:11,867 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-25]hn200225_0.docx
+2020-05-13 10:16:12,794 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-25]hn200225_0.docx
+2020-05-13 10:16:13,523 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-13]hn200213_0.docx
+2020-05-13 10:16:14,193 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-13]hn200213_0.docx
+2020-05-13 10:16:15,722 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2020-02-12]hn200212_0.docx
+2020-05-13 10:16:15,722 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-12]hn200212_0.docx
+2020-05-13 10:16:16,737 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-11]hn200211_0.docx
+2020-05-13 10:16:17,679 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-11]hn200211_0.docx
+2020-05-13 10:16:18,722 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-10]hn200210_0.docx
+2020-05-13 10:16:19,682 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-10]hn200210_0.docx
+2020-05-13 10:16:20,749 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-07]hn200207_0.docx
+2020-05-13 10:16:21,703 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-07]hn200207_0.docx
+2020-05-13 10:16:22,771 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2020-02-06]hn200206_0.docx
+2020-05-13 10:16:23,655 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-06]hn200206_0.docx
+2020-05-13 10:16:24,457 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2020-02-05]hn200205_0.docx
+2020-05-13 10:16:24,457 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2020-02-05]hn200205_0.docx
+2020-05-13 10:16:25,192 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2019-12-12]hn191212.docx
+2020-05-13 10:16:25,419 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-12-12]hn191212.docx
+2020-05-13 10:16:26,638 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2019-12-11]hn191211_0.docx
+2020-05-13 10:16:27,555 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-12-11]hn191211_0.docx
+2020-05-13 10:16:28,704 — Process_NWT_Hansards — DEBUG — ORAL QUESTION FOUND in NWT/docs/[2019-12-10]hn191210.docx
+2020-05-13 10:16:29,539 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-12-10]hn191210.docx
+2020-05-13 10:16:30,118 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2019-10-25]hn191025.docx
+2020-05-13 10:16:30,118 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-10-25]hn191025.docx
+2020-05-13 10:16:31,590 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2019-10-24]tlc191024.docx
+2020-05-13 10:16:31,590 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-10-24]tlc191024.docx
+2020-05-13 10:16:32,875 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2019-10-18]tlc191018.docx
+2020-05-13 10:16:32,875 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-10-18]tlc191018.docx
+2020-05-13 10:16:33,997 — Process_NWT_Hansards — DEBUG — ORAL QUESTION NOT found in NWT/docs/[2019-10-09]rt191009_1.docx
+2020-05-13 10:16:33,997 — Process_NWT_Hansards — DEBUG — Document path: NWT/docs/[2019-10-09]rt191009_1.docx
