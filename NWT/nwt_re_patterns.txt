@@ -1,0 +1,18 @@
+NWT PDF RegEx patterns
+
+Raw text with newline characters
+Page headers:
+	title: r'NORTHWEST TERRITORIES HANSARD'
+	title: r'Page\s\d{1,4}'
+	title: r'[A-Z][a-z]+\s\d{1,2},\s\d{4}'
+
+Oral Questions Section:
+	section title: r'ITEM.*ORAL QUESTIONS'
+	
+Raw text wiht no newline characters
+	oral questions section: r'ITEM\s+\d{1,2}:\s+ORAL QUESTIONS\s*(.*?)\s*ITEM'
+	question titles: r'(Question\s+\d{1,3}.*?:.*?)\s*(?:M[R|S]S{0,1}\.|HON\.|HONOURABLE)'
+	question titles, separate question description: r'(Question\s+\d{1,3}.*?:)(.*?)(?:M[R|S]S{0,1}\.|HON\.|HONOURABLE)'
+	question titles, separate question description and speaker title: r'(Question\s+\d{1,3}.*?:.*?)\s*(M[R|S]S{0,1}\.|HON\.|HONOURABLE)'
+	question titles and first speaker: r'(Question\s+\d{1,3}.*?:.*?)((?:M[R|S]S{0,1}\.|HON\.|HONOURABLE).*?):'
+	speaker names: r'((?:M[R|S]S{0,1}\.|HON\.|HONOURABLE).*?):'
