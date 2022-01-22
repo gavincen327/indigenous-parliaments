@@ -8,7 +8,7 @@ import pandas as pd
 import requests
 import csv
 
-from nunavut_hansards import csv_2_date_path_dict
+from get_nunavut_hansard_links import csv_2_date_path_dict
 
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
