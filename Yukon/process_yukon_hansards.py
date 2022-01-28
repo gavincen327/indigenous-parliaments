@@ -51,7 +51,7 @@ def process_converted_pdfs(pdf_path, str_date, file_prefix):
     # oral_sec_pattern = r'ITEM\s+\d{1,2}:\s+ORAL QUESTIONS\s*(.*?)\s*ITEM'
     oral_sec_pattern = r'QUESTION PERIOD(.*)?Question Period has now elapsed'
     quest_head_pattern = r'(Question\s+\d{1,3}.*?:)(.*?)(M[R|S]S{0,1}\.|HON\.|HONOURABLE)'
-    speaker_pattern = r'((?:M[R|S]S{0,1}\.|HON\.|HONOURABLE).*?):'
+    speaker_pattern = r'((?:HON\.|HONOURABLE|M[R|S]S{0,1}\.).*?):'
 
     sec_head = 'QUESTION PERIOD'
 
