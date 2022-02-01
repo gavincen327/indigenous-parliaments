@@ -18,7 +18,7 @@ import csv
 
 
 def hansard_lnks_to_csv(file_prefix, list_of_links):
-    with open('NWT/'+file_prefix+'.csv', 'w') as f_out:
+    with open(file_prefix+'.csv', 'w') as f_out:
         writer = csv.writer(f_out, delimiter=',', quotechar='"',
                             quoting=csv.QUOTE_ALL)
         writer.writerow(['Assembly', 'Session', 'Date', 'Word', 'PDF'])
@@ -54,7 +54,7 @@ def get_nwt_assembly_links(web_driver):
 
 
 def main():
-    path_to_driver = '/Users/curtishendricks/Development/indigenous-parliaments /indigenous-parliaments/chromedriver'
+    path_to_driver = 'D:/OneDrive - University of Pittsburgh/Python/chromedriver.exe'
     site = 'https://www.ntassembly.ca/documents-proceedings/hansard'
 
     driver = get_web_driver(path_to_driver, site)

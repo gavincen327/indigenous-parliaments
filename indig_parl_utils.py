@@ -276,6 +276,6 @@ def download_hansards(links_csv_file, doc_dir="docs/", pdf_dir="pdfs/"):
 
 
 if __name__ == '__main__':
-    my_files = get_file_list('/Users/curtishendricks/Downloads/')
+    my_files = get_file_list('Downloads/')
     for file in my_files:
         print(file)

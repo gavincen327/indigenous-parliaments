@@ -221,7 +221,7 @@ def get_web_driver(driver_loc, web_loc):
 
 
 def main():
-    path_to_driver = '/Users/curtishendricks/Development/indigenous-parliaments /indigenous-parliaments/chromedriver'
+    path_to_driver = 'D:/OneDrive - University of Pittsburgh/Python/chromedriver.exe'
     site = 'https://assembly.nu.ca/hansard'
 
     driver = get_web_driver(path_to_driver, site)
