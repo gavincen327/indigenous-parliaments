@@ -38,10 +38,10 @@ def get_boundary(text):
 
 def extract_files(mht_loc, sub_dir=''):
     patt_loc = r'Content-Location:\s*(.*)\s*\n'
-    patt_contnet_type = r'Content-Type:\s*(.*)\s*\n'
+    patt_content_type = r'Content-Type:\s*(.*)\s*\n'
     patt_encode = r'Content-Transfer-Encoding:\s*(.*)\s*\n'
     pat_rem = r'=\n'
-    with open(mht_loc, 'r') as mht:
+    with open(mht_loc, 'r', encoding="utf-16-le") as mht:
         mht_text = mht.read()
         mht_file = mht_check(mht_text)
         boundry_text = get_boundary(mht_text)
@@ -57,8 +57,9 @@ def extract_files(mht_loc, sub_dir=''):
                 encode_find = get_pattern_match(file_content, patt_encode)
                 if loc_find and encode_find:
                     file_content = text_rem_patterns(
-                        file_content, [pat_rem, patt_contnet_type, patt_loc, patt_encode], '')
+                        file_content, [pat_rem, patt_content_type, patt_loc, patt_encode], '')
                     file_name = loc_find.group(1).split('/')[-1:][0]
+                    print(file_name)
                     if idx == 0:
                         main_dir += '/'+file_name.split('.')[0]
                         if not sub_dir:
@@ -74,7 +75,7 @@ def extract_files(mht_loc, sub_dir=''):
                     if 'base64' in encode_find.group(1):
                         # file_content = base64.b64decode(file_content)
                         with open(outfile_path, "wb") as out_f:
-                            out_f.write(file_content.encode('utf-8'))
+                            out_f.write(file_content.encode('utf-16-le'))
                             logger_mht.debug('Created %s file', outfile_path)
                     else:
                         with open(outfile_path, "w") as out_f:
@@ -93,7 +94,7 @@ def extract_files(mht_loc, sub_dir=''):
 
 
 if __name__ == "__main__":
-    file_loc = 'Yukon/mhts/[date_short]3-34-037_1.mht'
+    file_loc = 'mhts/[date_short]3-34-037_1.mht'
     outcome = extract_files(file_loc)
     if outcome:
         print('Processing successful')

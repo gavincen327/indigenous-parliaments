@@ -8,9 +8,9 @@ def get_docx(date):
     """
     date should be in following format: 180601
     """
-    url = "http://www.assembly.gov.nt.ca/sites/default/files/hn"+date+".docx"
+    url = "http://www.assembly.gov.nt.ca/sites/default/files/"+date+".docx"
     r = requests.get(url)
-    file = "./docs/"+date+".docx"
+    file = "docs/"+date+".docx"
     with open(file, 'wb') as f:
         f.write(r.content)
     return file
@@ -37,9 +37,9 @@ def process_doc(date):
     return clean_df
 
 
-def main(date=sys.argv[1]):
+def main(date=sys.argv[0]):
     hansard_df = process_doc(date)
-    hansard_df.to_csv("./clean_csvs/"+date+".csv",encoding='utf-8-sig')
+    hansard_df.to_csv("clean_csvs/"+date+".csv",encoding='utf-8-sig')
     print("CSV daved for: " + date)
     
 

@@ -12,6 +12,7 @@ from indig_parl_utils import download_mht, send_text_to_file
 from indig_parl_re import text_rem_patterns, text_extract_pattern
 from process_mhts import extract_files
 
+
 Yukon_logger = get_logger("Process_Yukon_Hansards",
                           a_log_file='logs/proc_yukon_debug.log')
 

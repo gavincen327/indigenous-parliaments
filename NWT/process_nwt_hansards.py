@@ -19,7 +19,7 @@ from indig_parl_logger import get_logger
 
 
 nwt_logger = get_logger("process_nwt_hansards",
-                        a_log_file='NWT/proc_nwt_debug.log')
+                        a_log_file='proc_nwt_debug.log')
 
 
 def get_file_list(directory, ext='all-files'):
@@ -53,7 +53,7 @@ def get_source_links(source_file):
     return location_dict
 
 
-def get_pdf_text(web_loc, date, directory="NWT/pdfs/"):
+def get_pdf_text(web_loc, date, directory="pdfs/"):
     """
     date should be in following format: 180601
     """
@@ -65,7 +65,7 @@ def get_pdf_text(web_loc, date, directory="NWT/pdfs/"):
     return file_loc
 
 
-def get_docx(web_loc, date, directory="NWT/docs/"):
+def get_docx(web_loc, date, directory="docs/"):
     """
     date should be in following format: 180601
     """
@@ -204,9 +204,9 @@ def process_doc_oral_q(docx_obj, path, session):
     doc_text = []
     for dialog in oral_q_dialogs:
         doc_text += get_doc_obj_txt(dialog)
-    send_text_to_file('NWT/tmp/'+dialog_txt_file, doc_text, data_type='list')
+    send_text_to_file('tmp/'+dialog_txt_file, doc_text, data_type='list')
     nwt_logger.debug('Oral questions raw text saved to %s' %
-                     'NWT/tmp/'+dialog_txt_file)
+                     'tmp/'+dialog_txt_file)
     csv_list = []
 
     prev_question = False
@@ -238,7 +238,7 @@ def process_doc_oral_q(docx_obj, path, session):
                         (speaker, len(dialogue), prev_question))
                 else:
                     dialogue += ' ' + para.text
-    with open('NWT/csvs/'+csv_filename, mode='w') as csv_file:
+    with open('csvs/'+csv_filename, mode='w') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"',
                                 quoting=csv.QUOTE_ALL)
         csv_writer.writerow(['Question', 'Speaker', 'Speech'])
@@ -325,7 +325,7 @@ def get_oral_q_df(text, d_str):
         last_item = question_list[len(question_list)-1]
         split_l_item = re.split(section_title, last_item)
         question_list[len(question_list)-1] = split_l_item[0]
-        send_text_to_file('NWT/tmp/'+d_str + 'pre_q_split_raw.txt',
+        send_text_to_file('tmp/'+d_str + 'pre_q_split_raw.txt',
                           question_list, data_type='list')
         for idx in range(len(question_list)):
             if not 'Question' == question_list[idx][:8]:
@@ -340,7 +340,7 @@ def get_oral_q_df(text, d_str):
                     question_list[idx-1] += ': ' + q_tail
                     # print('New question:', question_list[idx-1])
                     question_list[idx] = dialog
-        send_text_to_file('NWT/tmp/'+d_str + 'q_split_raw.txt', question_list,
+        send_text_to_file('tmp/'+d_str + 'q_split_raw.txt', question_list,
                           data_type='list')
         even_q_list = question_list[1::2]
         odd_q_list = question_list[::2]
@@ -372,22 +372,20 @@ def process_pdf(pdf_loc, date_str, coding='utf-8'):
     try:
         raw_text = pdf_to_text(pdf_loc)
         raw_text = raw_text.decode(encoding=coding)
-        # send_text_to_file('Nunavut/clean_csvs/'+date_str +
-        #                   '-raw_text.txt', raw_text)
-        # print('raw text sent')
-        store_to = 'NWT/tmp/'+date_str + 'rem_hd_ft_raw_text.txt'
+        send_text_to_file('clean_csvs/'+date_str + '-raw_text.txt', raw_text)
+        print('raw text sent')
+        store_to = 'tmp/'+date_str + 'rem_hd_ft_raw_text.txt'
         flat_text = prepare_raw_text(raw_text, store_path=store_to)
-        # send_text_to_file('Nunavut/clean_csvs/'+date_str +
-        #                   'rem_nl_raw_text.txt', flat_text)
-        # print('Raw text no newlines sent')
-        # sec_head = "Item 6: Oral Questions"
+        send_text_to_file('clean_csvs/'+date_str + 'rem_nl_raw_text.txt', flat_text)
+        print('Raw text no newlines sent')
+        sec_head = "Item 6: Oral Questions"
         sec_head = "Oral Questions"
         if flat_text.find(sec_head) > -1 or flat_text.find(sec_head.upper()) > -1:
             nwt_logger.debug('Found header text')
-            send_text_to_file('NWT/tmp/'+date_str +
+            send_text_to_file('tmp/'+date_str +
                               '-raw_text.txt', raw_text)
             nwt_logger.debug('Raw pdf text sent %s' % date_str)
-            send_text_to_file('NWT/tmp/'+date_str + '_flat_text.txt',
+            send_text_to_file('tmp/'+date_str + '_flat_text.txt',
                               flat_text)
             nwt_logger.debug('Raw text no newlines sent %s' % date_str)
             return get_oral_q_df(flat_text, date_str)
@@ -413,7 +411,7 @@ def main():
     # hansard_csv = 'NWT/nwt_hansards_17_assem.csv'
     # hansard_csv = 'NWT/nwt_hansards_16_assem.csv'
     # hansard_csv = 'NWT/nwt_hansards_15_assem.csv'
-    hansard_csv = 'NWT/nwt_hansards_14_assem.csv'
+    hansard_csv = 'nwt_hansards_14_assem.csv'
 
     docx_paths, pdf_paths = download_hansards(hansard_csv)
 
@@ -445,12 +443,12 @@ def main():
             hansard_df = process_pdf(path, dte)
             if not hansard_df.empty:
                 print('(|)')
-                hansard_df.to_csv("NWT/csvs/"+dte + ".csv",
+                hansard_df.to_csv("csvs/"+dte + ".csv",
                                   encoding='utf-8-sig')
             else:
                 print('(-)')
 
-    print('Extracted Oral Questions in folder "NWT/csvs/"')
+    print('Extracted Oral Questions in folder "csvs/"')
 
 
 if __name__ == '__main__':

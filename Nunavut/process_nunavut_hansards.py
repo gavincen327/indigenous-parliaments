@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 
-import pdftotext
+#import pdftotext
 from pdfrw import PdfReader
 
 import re
@@ -33,7 +33,7 @@ def get_pdfs_list(source_file):
 
 def get_pdf(url, dte_str):
     r = requests.get(url)
-    file_loc = "Nunavut/pdfs/" + dte_str + ".pdf"
+    file_loc = "pdfs/" + dte_str + ".pdf"
     with open(file_loc, 'wb') as f:
         f.write(r.content)
     return file_loc
@@ -52,7 +52,7 @@ def pdf_to_text(path):
     retstr = BytesIO()
     layout = LAParams(all_texts=True)
     device = TextConverter(manager, retstr, laparams=layout)
-    filepath = open(path, 'rb')
+    filepath = open(path, 'wb')
     interpreter = PDFPageInterpreter(manager, device)
     for page in PDFPage.get_pages(filepath, check_extractable=True):
         interpreter.process_page(page)
@@ -64,7 +64,7 @@ def pdf_to_text(path):
 
 
 def send_text_to_file(file_path, data, header='', data_type='text'):
-    with open(file_path, 'w') as f:
+    with open(file_path, 'wb') as f:
         if header:
             f.write(header.title() + '\n\n')
         if data_type == 'list':
@@ -133,7 +133,7 @@ def get_oral_q_df(text, d_str):
         last_item = question_list[len(question_list)-1]
         split_l_item = re.split(section_title, last_item)
         question_list[len(question_list)-1] = split_l_item[0]
-        send_text_to_file('Nunavut/clean_csvs/'+d_str +
+        send_text_to_file('clean_csvs/'+d_str +
                           'pre_q_split_raw.txt', question_list,
                           data_type='list')
         for idx in range(len(question_list)):
@@ -149,7 +149,7 @@ def get_oral_q_df(text, d_str):
                     question_list[idx-1] += ': ' + q_tail
                     # print('New question:', question_list[idx-1])
                     question_list[idx] = dialog
-        send_text_to_file('Nunavut/clean_csvs/'+d_str +
+        send_text_to_file('clean_csvs/'+d_str +
                           'q_split_raw.txt', question_list, data_type='list')
         even_q_list = question_list[1::2]
         odd_q_list = question_list[::2]
@@ -186,17 +186,17 @@ def process_pdf(pdf_loc, date_str, coding='utf-8'):
         #                   '-raw_text.txt', raw_text)
         # print('raw text sent')
         # 2. Remove header and footer strings from text
-        store_to = 'Nunavut/clean_csvs/'+date_str + 'rem_hd_ft_raw_text.txt'
+        store_to = 'clean_csvs/'+date_str + 'rem_hd_ft_raw_text.txt'
         rm_hd_nl_text = prepare_raw_text(raw_text, store_path=store_to)
         # send_text_to_file('Nunavut/clean_csvs/'+date_str +
         #                   'rem_nl_raw_text.txt', rm_hd_nl_text)
         # print('Raw text no newlines sent')
         # 5. Check if Oral Questions sections are present in the text
         if rm_hd_nl_text.find("Item 6: Oral Questions") > -1:
-            send_text_to_file('Nunavut/clean_csvs/'+date_str +
+            send_text_to_file('clean_csvs/'+date_str +
                               '-raw_text.txt', raw_text)
             print('Raw text sent', date_str)
-            send_text_to_file('Nunavut/clean_csvs/'+date_str +
+            send_text_to_file('clean_csvs/'+date_str +
                               'rem_nl_raw_text.txt', rm_hd_nl_text)
             print('Raw text no newlines sent', date_str)
             # 4. Get attendance text
@@ -220,7 +220,7 @@ def process_pdf(pdf_loc, date_str, coding='utf-8'):
 
 
 def main():
-    path_dct = csv_2_date_path_dict('Nunavut/5-Assembly.csv')
+    path_dct = csv_2_date_path_dict('5-Assembly.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/special_file.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/archives.csv')
     # path_dct = csv_2_date_path_dict('Nunavut/archives_4th.csv')
@@ -232,7 +232,7 @@ def main():
         pdf_name = get_pdf(path_dct[dte], dte)
         hansard_df = process_pdf(pdf_name, dte)
         if not hansard_df.empty:
-            hansard_df.to_csv("Nunavut/clean_csvs/"+dte +
+            hansard_df.to_csv("clean_csvs/"+dte +
                               ".csv", encoding='utf-8-sig')
             print("CSV saved for: " + dte)
 

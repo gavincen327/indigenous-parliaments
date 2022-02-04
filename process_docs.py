@@ -8,7 +8,7 @@ import indig_parl_utils as utils
 from indig_parl_logger import get_logger
 
 docs_logger = get_logger("Process_DOCX_Hansards",
-                         a_log_file='NWT/logs/proc_docs_hansards_debug.log')
+                         a_log_file='logs/proc_docs_hansards_debug.log')
 
 
 def get_oral_q_doc_obj(docx_path):
@@ -68,10 +68,10 @@ def process_doc_oral_q(docx_obj, path, session):
     doc_text = []
     for dialog in oral_q_dialogs:
         doc_text += get_doc_obj_txt(dialog)
-    utils.send_text_to_file('NWT/tmp/'+dialog_txt_file,
+    utils.send_text_to_file('tmp/'+dialog_txt_file,
                             doc_text, data_type='list')
     docs_logger.debug('Oral questions raw text saved to %s' %
-                      'NWT/tmp/'+dialog_txt_file)
+                      'tmp/'+dialog_txt_file)
 
     csv_list = []
     prev_question = False
@@ -103,5 +103,5 @@ def process_doc_oral_q(docx_obj, path, session):
                         (speaker, len(dialogue), prev_question))
                 else:
                     dialogue += ' ' + para.text
-    utils.csv_from_list('NWT/csvs/'+csv_filename, csv_list,
+    utils.csv_from_list('csvs/'+csv_filename, csv_list,
                         header_row=['Question', 'Speaker', 'Speech'])

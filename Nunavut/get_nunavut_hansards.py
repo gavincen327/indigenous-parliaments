@@ -16,8 +16,8 @@ from selenium.webdriver.common.keys import Keys
 # Collect main Fifth Assembly Finals
 def get_main_finals():
 
-    path_to_driver = '/Users/curtishendricks/web-driver/chromedriver'
-    driver = webdriver.Chrome(executable_path=path_to_driver)
+    path_to_driver = 'D:/OneDrive - University of Pittsburgh/Python/chromedriver.exe'
+    driver = webdriver.Chrome(executable_path=path_to_driver, options=chrome_options)
     driver.get('https://assembly.nu.ca/hansard')
     assert 'Hansard' in driver.title
 
@@ -60,10 +60,9 @@ def get_pdf(date):
     #   + date + "-Blues-English.pdf"
     #url = "http://www.assembly.nu.ca/sites/default/files/" \
     #   + date + "_Final.pdf"
-    url = "http://www.assembly.nu.ca/sites/default/files/Hansard_" + date \
-        + ".pdf"
+    url = "http://www.assembly.nu.ca/sites/default/files/Hansard_" + date + ".pdf"
     r = requests.get(url)
-    file = "./pdfs/" + date + ".pdf"
+    file = "pdfs/" + date + ".pdf"
     with open(file, 'wb') as f:
         f.write(r.content)
     return file
@@ -150,7 +149,7 @@ def process_pdf(pdf, date):
     return clean_df
 
 
-def main(date=sys.argv[1]):
+def main(date=sys.argv[0]):
     # Add a loop for this to check and add for files automatically
     # python get_nunavut_hansards.py 20010321
     # Link to pdfs: https://assembly.nu.ca/hansard
@@ -159,7 +158,7 @@ def main(date=sys.argv[1]):
     # Problem 2: some speeches are getting cropped (examples to come)
     pdf_name = get_pdf(date)
     hansard_df = process_pdf(pdf_name, date)
-    hansard_df.to_csv("./clean_csvs/"+date+".csv", encoding='utf-8-sig')
+    hansard_df.to_csv("clean_csvs/"+date+".csv", encoding='utf-8-sig')
     print("CSV saved for: " + date)
 
 

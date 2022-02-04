@@ -1,3 +1,4 @@
+import csv
 import sys
 import requests
 import pandas as pd
@@ -6,10 +7,11 @@ import datetime
 import PyPDF2
 from tika import parser
 
+
 def get_pdf(num):
-    url = "http://www.legassembly.gov.yk.ca/hansard/33-legislature/"+num+".pdf" #EDIT THIS FOR EACH LEGISLATURE
+    url = "https://yukonassembly.ca/sites/default/files/hansard/"+num+".pdf" #EDIT THIS FOR EACH LEGISLATURE
     r = requests.get(url)
-    file = "./pdfs/" + num + ".pdf"
+    file = "pdfs/" + num + ".pdf"
     with open(file, 'wb') as f:
         f.write(r.content)
     return file
@@ -48,7 +50,7 @@ def process_pdf(pdf,date):
     
 
 
-def main(date=sys.argv[1]):
+def main(date=sys.argv[0]):
     # LOOP APPLIES TO 32 and 33rd LEGISLATURE
     if len(date) == 1:
         date = "00" + date
@@ -56,7 +58,7 @@ def main(date=sys.argv[1]):
         date = "0" + date
     pdf_name = get_pdf(date)
     hansard_df = process_pdf(pdf_name,date)
-    hansard_df.to_csv("./clean_csvs/33_legislature/"+date+".csv", encoding='utf-8-sig') # MAKE NEW DIRECTORY FOR EACH LEGISLATURE
+    hansard_df.to_csv("clean_csvs/33_legislature/"+date+".csv", encoding='utf-8-sig') # MAKE NEW DIRECTORY FOR EACH LEGISLATURE
     print("CSV saved for: " + date)
 
 if __name__=='__main__':
