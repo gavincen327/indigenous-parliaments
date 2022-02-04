@@ -7,6 +7,9 @@ Parliament website.
 """
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
@@ -213,7 +216,7 @@ def csv_2_date_path_dict(in_file, key_field="Session Date",
 
 
 def get_web_driver(driver_loc, web_loc):
-    web_driver = webdriver.Chrome(executable_path=driver_loc)
+    web_driver = webdriver.Chrome(executable_path=driver_loc, options=chrome_options)
     web_driver.get(web_loc)
     assert 'Hansard' in web_driver.title
 

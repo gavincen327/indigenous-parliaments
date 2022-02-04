@@ -16,8 +16,8 @@ from selenium.webdriver.common.keys import Keys
 # Collect main Fifth Assembly Finals
 def get_main_finals():
 
-    path_to_driver = '/Users/curtishendricks/web-driver/chromedriver'
-    driver = webdriver.Chrome(executable_path=path_to_driver)
+    path_to_driver = 'D:/OneDrive - University of Pittsburgh/Python/chromedriver.exe'
+    driver = webdriver.Chrome(executable_path=path_to_driver, options=chrome_options)
     driver.get('https://assembly.nu.ca/hansard')
     assert 'Hansard' in driver.title
 
