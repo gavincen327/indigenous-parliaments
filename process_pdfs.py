@@ -17,7 +17,7 @@ from indig_parl_logger import get_logger
 SPEAKER_TITLES = ['MR.', 'MS.', 'MRS.', 'HON.', 'HONOURABLE']
 
 pdfs_logger = get_logger("Process_PDF_Handards",
-                         a_log_file='NWT/logs/proc_pdfs_hansards_debug.log')
+                         a_log_file='logs/proc_pdfs_hansards_debug.log')
 
 
 def pdf_to_text(path):
@@ -43,7 +43,7 @@ def process_pdf_oral_q(oral_q_section, question_head_ptrn, speaker_ptrn,
     # Drop the first element
     quest_dialog_list = text_split(oral_q_section, question_head_ptrn)[1:]
 
-    utils.send_text_to_file('NWT/tmp/'+str_date+'raw_oral_questions_list.txt',
+    utils.send_text_to_file('tmp/'+str_date+'raw_oral_questions_list.txt',
                             quest_dialog_list, data_type='list')
     # repair titles
     new_list = []
@@ -60,7 +60,7 @@ def process_pdf_oral_q(oral_q_section, question_head_ptrn, speaker_ptrn,
             new_list.append(quest_dialog_list[idx] + quest_dialog_list[idx+1])
 
     quest_dialog_list = new_list
-    utils.send_text_to_file('NWT/tmp/'+str_date+'fixed_oral_questions_list.txt',
+    utils.send_text_to_file('tmp/'+str_date+'fixed_oral_questions_list.txt',
                             quest_dialog_list, data_type='list')
 
     speakers_table = []

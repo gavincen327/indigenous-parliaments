@@ -13,7 +13,7 @@ from indig_parl_re import text_rem_patterns, text_extract_pattern
 from process_mhts import extract_files
 
 Yukon_logger = get_logger("Process_Yukon_Hansards",
-                          a_log_file='Yukon/logs/proc_yukon_debug.log')
+                          a_log_file='logs/proc_yukon_debug.log')
 
 
 def get_csv_links(csv_pth, columns, line_zero=False):
@@ -58,21 +58,21 @@ def process_converted_pdfs(pdf_path, str_date, file_prefix):
     try:
         pdf_text = procpdf.pdf_to_text(pdf_path)
         Yukon_logger.debug('Got pdf_text from %s' % pdf_path)
-        send_text_to_file('Yukon/tmp/'+str_date+'pdf_text.txt', pdf_text)
+        send_text_to_file('tmp/'+str_date+'pdf_text.txt', pdf_text)
         # flat_text = text_rem_patterns(pdf_text, title_patterns + ['\n'])
         flat_text = text_rem_patterns(pdf_text, ['\n'])
 
         if sec_head in flat_text:
             print('(|)')
             Yukon_logger.debug('ORAL QUESTION FOUND in %s' % pdf_path)
-            send_text_to_file('Yukon/tmp/'+str_date+'flat_text.txt',
+            send_text_to_file('tmp/'+str_date+'flat_text.txt',
                               flat_text)
             oral_q_section = text_extract_pattern(flat_text,
                                                   oral_sec_pattern)
-            send_text_to_file('Yukon/tmp/'+str_date+'oral_q_sec.txt',
+            send_text_to_file('tmp/'+str_date+'oral_q_sec.txt',
                               oral_q_section.group(1))
 
-            csv_name = 'Yukon/csvs/' + file_prefix + str_date + '.csv'
+            csv_name = 'csvs/' + file_prefix + str_date + '.csv'
             procpdf.process_pdf_oral_q(oral_q_section.group(1),
                                        quest_head_pattern, speaker_pattern,
                                        csv_name, str_date)
@@ -88,7 +88,7 @@ def process_converted_pdfs(pdf_path, str_date, file_prefix):
 def main():
     # download handsards and store to locations to dictionaries
     # process the types of files
-    csv_tst_file = 'Yukon/yukon_hansards.csv'
+    csv_tst_file = 'yukon_hansards.csv'
     csv_cols = ["Date_Long", "Date_Short", "MHT", "PDF"]
     tst_lst = get_csv_links(csv_tst_file, csv_cols)
 
@@ -96,14 +96,14 @@ def main():
         print(idx, ': ', tst_lst[idx]['mht'])
         output_file = download_mht(tst_lst[idx]['mht'],
                                    tst_lst[idx]["date_short"],
-                                   directory='Yukon/mhts/')
+                                   directory='mhts/')
         print('\t:', output_file)
         outcome = extract_files(output_file)
         if outcome:
             print('HTML conversion successful')
             html_file = HTML(outcome)
             pdf_name = output_file.split('/')[-1:][0].split('.')[0]
-            pdf_path = 'Yukon/pdfs/'+pdf_name+'.pdf'
+            pdf_path = 'pdfs/'+pdf_name+'.pdf'
             html_file.write_pdf(pdf_path)
             print('Saved to pdf:', pdf_path)
             process_converted_pdfs(pdf_path, tst_lst[idx]["date_short"], '')

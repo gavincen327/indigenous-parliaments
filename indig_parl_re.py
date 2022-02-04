@@ -9,7 +9,7 @@ import re
 from indig_parl_logger import get_logger
 
 re_logger = get_logger("Process_PDF_Handards",
-                       a_log_file='NWT/logs/proc_pdfs_hansards_debug.log')
+                       a_log_file='logs/proc_pdfs_hansards_debug.log')
 
 
 def text_find_pattern(text, pattern):

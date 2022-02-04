@@ -5,6 +5,9 @@ import requests
 import os
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
 from datetime import datetime
 
 from indig_parl_logger import get_logger
@@ -41,7 +44,7 @@ def get_web_driver(driver_loc, web_loc):
     Returns:
         [type] -- [description]
     """
-    web_driver = webdriver.Chrome(executable_path=driver_loc)
+    web_driver = webdriver.Chrome(executable_path=driver_loc, options=chrome_options)
     web_driver.get(web_loc)
     assert 'Hansard' in web_driver.title
 

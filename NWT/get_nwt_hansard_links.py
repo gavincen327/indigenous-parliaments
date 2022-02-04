@@ -7,6 +7,9 @@ Western Territories Parliament website.
 """
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+chrome_options = Options()
+chrome_options.add_argument("--headless")
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 
@@ -28,7 +31,7 @@ def hansard_lnks_to_csv(file_prefix, list_of_links):
 
 
 def get_web_driver(driver_loc, web_loc):
-    web_driver = webdriver.Chrome(executable_path=driver_loc)
+    web_driver = webdriver.Chrome(executable_path=driver_loc, options=chrome_options)
     web_driver.get(web_loc)
     assert 'Hansard' in web_driver.title
 
